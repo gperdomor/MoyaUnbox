@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Unbox bindings for Moya. Includes RxSwift and ReactiveSwift bindings as well."
   s.description  = <<-DESC
-    [Unbox](https://github.com/lyft/mapper) bindings for
+    [Unbox](https://github.com/JohnSundell/Unbox) bindings for
     [Moya](https://github.com/Moya/Moya) for easier JSON serialization.
     Includes [RxSwift](https://github.com/ReactiveX/RxSwift) and [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) bindings as well.
     Instructions on how to use it are in
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.source_files  = "Sources/MoyaUnbox/*.swift"
     ss.dependency "Moya", "~> 8.0"
-    ss.dependency "Unbox", "~> 6.0"
+    ss.dependency "Unbox", "~> 2.4"
     ss.framework = "Foundation"
   end
 

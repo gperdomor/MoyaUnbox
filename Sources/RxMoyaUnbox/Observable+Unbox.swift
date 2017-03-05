@@ -2,7 +2,7 @@
 //  Observable+Unbox.swift
 //  MoyaUnbox
 //
-//  Created by Gustavo Perdomo on 2/19/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,18 +27,18 @@
 import Foundation
 import RxSwift
 import Moya
-import Mapper
+import Unbox
 import MoyaUnbox
 
 public extension ObservableType where E == Response {
 
-    /// Maps data received from the observable into an object which implements the Mappable protocol.
+    /// Maps data received from the observable into an object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of object or error, if the data can't be mapped
-    public func map<T: Mappable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T> {
+    public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .flatMap { response -> Observable<T> in
                 return Observable.just(try response.map(to: type, fromKey: keyPath))
@@ -46,13 +46,13 @@ public extension ObservableType where E == Response {
             .observeOn(MainScheduler.instance)
     }
 
-    /// Maps data received from the observable into an array of objects which implements the Mappable protocol.
+    /// Maps data received from the observable into an array of objects which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of array or error, if the data can't be mapped
-    public func map<T: Mappable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]> {
+    public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .flatMap { response -> Observable<[T]> in
                 return Observable.just(try response.map(to: type, fromKey: keyPath))
@@ -60,13 +60,13 @@ public extension ObservableType where E == Response {
             .observeOn(MainScheduler.instance)
     }
 
-    /// Maps data received from the observable into an object which implements the Mappable protocol.
+    /// Maps data received from the observable into an object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of object or nil, if the data can't be mapped
-    public func mapOptional<T: Mappable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T?> {
+    public func mapOptional<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T?> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .flatMap { response -> Observable<T?> in
                 do {
@@ -79,13 +79,13 @@ public extension ObservableType where E == Response {
             .observeOn(MainScheduler.instance)
     }
 
-    /// Maps data received from the observable into an array of objects which implements the Mappable protocol.
+    /// Maps data received from the observable into an array of objects which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of array or nil, if the data can't be mapped
-    public func mapOptional<T: Mappable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]?> {
+    public func mapOptional<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]?> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
             .flatMap { response -> Observable<[T]?> in
                 do {

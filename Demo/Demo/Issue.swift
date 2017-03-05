@@ -2,7 +2,7 @@
 //  Issue.swift
 //  Demo
 //
-//  Created by Gustavo Perdomo on 2/20/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,18 +25,18 @@
 //
 
 import Foundation
-import Mapper
+import Unbox
 
-class Issue: Mappable {
+struct Issue: Unboxable {
     let identifier: Int
     let number: Int
     let title: String
     let body: String
-
-    required init(map: Mapper) throws {
-        try identifier = map.from("id")
-        try number = map.from("number")
-        try title = map.from("title")
-        try body = map.from("body")
+    
+    init(unboxer: Unboxer) throws {
+        identifier = try unboxer.unbox(key: "id")
+        number = try unboxer.unbox(key: "number")
+        title = try unboxer.unbox(key: "title")
+        body = try unboxer.unbox(key: "body")
     }
 }

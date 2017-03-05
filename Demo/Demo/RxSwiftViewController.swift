@@ -2,7 +2,7 @@
 //  RxSwiftController.swift
 //  Demo
 //
-//  Created by Gustavo Perdomo on 2/20/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy

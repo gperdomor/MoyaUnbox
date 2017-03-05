@@ -2,7 +2,7 @@
 //  SignalProducer+Unbox.swift
 //  MoyaUnbox
 //
-//  Created by Gustavo Perdomo on 2/19/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,54 +27,54 @@
 import Foundation
 import ReactiveSwift
 import Moya
-import Mapper
+import Unbox
 import MoyaUnbox
 
 extension SignalProducerProtocol where Value == Moya.Response, Error == MoyaError {
 
-    /// Maps data received from the signal into an object which implements the Mappable protocol.
+    /// Maps data received from the signal into an object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Signal with the object as value or error if the data can't be mapped.
-    public func map<T: Mappable>(to type: T.Type, fromKey keyPath: String? = nil) -> SignalProducer<T, MoyaError> {
+    public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> SignalProducer<T, MoyaError> {
         return producer.flatMap(.latest) { response -> SignalProducer<T, Error> in
             return unwrapThrowable { try response.map(to: type, fromKey: keyPath) }
         }
     }
 
-    /// Maps data received from the signal into an array of objects which implements the Mappable protocol.
+    /// Maps data received from the signal into an array of objects which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the array of objects.
     /// - Returns: Signal with the array as value or error if the data can't be mapped.
-    public func map<T: Mappable>(to type: [T.Type], fromKey keyPath: String? = nil) -> SignalProducer<[T], MoyaError> {
+    public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> SignalProducer<[T], MoyaError> {
         return producer.flatMap(.latest) { response -> SignalProducer<[T], Error> in
             return unwrapThrowable { try response.map(to: type, fromKey: keyPath) }
         }
     }
 
-    /// Maps data received from the signal into an object which implements the Mappable protocol.
+    /// Maps data received from the signal into an object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Signal with the object or nil, as value.
-    public func mapOptional<T: Mappable>(to type: T.Type, fromKey keyPath: String? = nil) -> SignalProducer<T?, MoyaError> {
+    public func mapOptional<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> SignalProducer<T?, MoyaError> {
         return producer.flatMap(.latest) { response -> SignalProducer<T?, Error> in
             return unwrapOptionalThrowable { try response.map(to: type, fromKey: keyPath) }
         }
     }
 
-    /// Maps data received from the signal into an array of objects which implements the Mappable protocol.
+    /// Maps data received from the signal into an array of objects which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the array of objects.
     /// - Returns: Signal with the array or nil as value.
-    public func mapOptional<T: Mappable>(to type: [T.Type], fromKey keyPath: String? = nil) -> SignalProducer<[T]?, MoyaError> {
+    public func mapOptional<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> SignalProducer<[T]?, MoyaError> {
         return producer.flatMap(.latest) { response -> SignalProducer<[T]?, Error> in
             return unwrapOptionalThrowable { try response.map(to: type, fromKey: keyPath) }
         }

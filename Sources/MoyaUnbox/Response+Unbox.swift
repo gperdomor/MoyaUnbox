@@ -2,7 +2,7 @@
 //  Response+Unbox.swift
 //  MoyaUnbox
 //
-//  Created by Gustavo Perdomo on 2/19/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,73 +26,75 @@
 
 import Foundation
 import Moya
-import Mapper
+import Unbox
 
 public extension Response {
 
-    /// Maps data received from the server into an object which implements the Mappable protocol.
+    /// Maps data received from the server into an object which implements the Unboxable protocol.
     ///
-    /// - Parameter type: Type of the object which implements the Mappable protocol.
-    /// - Returns: The mappable object instance.
+    /// - Parameter type: Type of the object which implements the Unboxable protocol.
+    /// - Returns: The Unboxable object instance.
     /// - Throws: MoyaError if the response can't be mapped.
-    public func map<T: Mappable>(to type: T.Type) throws -> T {
-        guard let jsonDictionary = try mapJSON() as? NSDictionary,
-            let object = T.from(jsonDictionary) else {
-                throw MoyaError.jsonMapping(self)
+    public func map<T: Unboxable>(to type: T.Type) throws -> T {
+        do {
+            return try unbox(data: data)
+        } catch {
+            throw MoyaError.jsonMapping(self)
         }
-
-        return object
     }
 
-    /// Maps data received from the server into an object which implements the Mappable protocol.
+    /// Maps data received from the server into an object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
-    /// - Returns: The mappable object instance.
+    /// - Returns: The Unboxable object instance.
     /// - Throws: MoyaError if the response can't be mapped.
-    public func map<T: Mappable>(to type: T.Type, fromKey keyPath: String?) throws -> T {
+    public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String?) throws -> T {
         guard let keyPath = keyPath else { return try map(to: type) }
 
-        guard let jsonDictionary = try mapJSON() as? NSDictionary,
-            let objectDictionary = jsonDictionary.value(forKeyPath: keyPath) as? NSDictionary,
-            let object = T.from(objectDictionary) else {
-                throw MoyaError.jsonMapping(self)
+        guard let json = try mapJSON() as? UnboxableDictionary else {
+            throw MoyaError.jsonMapping(self)
         }
 
-        return object
+        do {
+            return try unbox(dictionary: json, atKey: keyPath)
+        } catch {
+            throw MoyaError.jsonMapping(self)
+        }
     }
 
-    /// Maps data received from the server into an array of objects which implements the Mappable protocol.
+    /// Maps data received from the server into an array of objects which implements the Unboxable protocol.
     ///
-    /// - Parameter type: Type of the object which implements the Mappable protocol.
-    /// - Returns: The mappable object instance.
+    /// - Parameter type: Type of the object which implements the Unboxable protocol.
+    /// - Returns: The Unboxable object instance.
     /// - Throws: MoyaError if the response can't be mapped.
-    public func map<T: Mappable>(to type: [T.Type]) throws -> [T] {
-        guard let data = try mapJSON() as? NSArray,
-            let object = T.from(data) else {
-                throw MoyaError.jsonMapping(self)
+    public func map<T: Unboxable>(to type: [T.Type]) throws -> [T] {
+        do {
+            return try unbox(data: data)
+        } catch {
+            throw MoyaError.jsonMapping(self)
         }
-        return object
-
     }
 
-    /// Maps data received from the server into an array of object which implements the Mappable protocol.
+    /// Maps data received from the server into an array of object which implements the Unboxable protocol.
     ///
     /// - Parameters:
-    ///   - type: Type of the object which implements the Mappable protocol.
+    ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the array of object.
-    /// - Returns: The mappable object instance.
+    /// - Returns: The Unboxable object instance.
     /// - Throws: MoyaError if the response can't be mapped.
-    public func map<T: Mappable>(to type: [T.Type], fromKey keyPath: String? = nil) throws -> [T] {
+    public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) throws -> [T] {
         guard let keyPath = keyPath else { return try map(to: type) }
 
-        guard let data = try mapJSON() as? NSDictionary,
-            let objectArray = data.value(forKeyPath: keyPath) as? NSArray,
-            let object = T.from(objectArray) else {
-                throw MoyaError.jsonMapping(self)
+        guard let jsonArray = try mapJSON() as? UnboxableDictionary else {
+            throw MoyaError.jsonMapping(self)
         }
 
-        return object
+        do {
+            return try unbox(dictionary: jsonArray, atKey: keyPath)
+        } catch {
+            throw MoyaError.jsonMapping(self)
+        }
     }
 }

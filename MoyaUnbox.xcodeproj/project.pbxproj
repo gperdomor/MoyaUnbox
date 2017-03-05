@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3159AE8C1E6CD007004F2021 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3159AE8B1E6CD007004F2021 /* Moya.framework */; };
+		31E60C081E6C9C41004F6CE1 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C071E6C9C41004F6CE1 /* Unbox.framework */; };
+		31E60C091E6C9C7D004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C071E6C9C41004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C0B1E6C9C9F004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C071E6C9C41004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C101E6CA522004F6CE1 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C0F1E6CA522004F6CE1 /* Unbox.framework */; };
+		31E60C111E6CA564004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C0F1E6CA522004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C131E6CA584004F6CE1 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C121E6CA584004F6CE1 /* Unbox.framework */; };
+		31E60C141E6CA59D004F6CE1 /* Unbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31E60C121E6CA584004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C171E6CA644004F6CE1 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C161E6CA644004F6CE1 /* Unbox.framework */; };
+		31E60C181E6CA74C004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C0F1E6CA522004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C191E6CA758004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C0F1E6CA522004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C1A1E6CA76D004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 31E60C071E6C9C41004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C1B1E6CA77D004F6CE1 /* Unbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31E60C121E6CA584004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31E60C1C1E6CA786004F6CE1 /* Unbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31E60C121E6CA584004F6CE1 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52D6D9871BEFF229002C0205 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */; };
 		52D6D99B1BEFF375002C0205 /* MoyaUnboxSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* MoyaUnboxSpec.swift */; };
 		651AC8E91E5A91F8000F24CF /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */; };
@@ -20,7 +34,6 @@
 		651AC8FB1E5A9700000F24CF /* Result.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568F31E5A011C0022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC8FC1E5A9700000F24CF /* Alamofire.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568B21E59CC4B0022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC8FD1E5A9700000F24CF /* Moya.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F971E5967B0000471FA /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		651AC8FE1E5A9700000F24CF /* Mapper.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F991E596A29000471FA /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC8FF1E5A9700000F24CF /* Nimble.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC9001E5A9700000F24CF /* Quick.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9C1E596F6A000471FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC9081E5A982E000F24CF /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8EA1E5A921C000F24CF /* ReactiveSwift.framework */; };
@@ -39,7 +52,6 @@
 		6583CA0F1E5A271C00DE8528 /* Result.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568F31E5A011C0022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA101E5A274700DE8528 /* RxSwift.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F56AA01E5A1A020022936D /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA111E5A275600DE8528 /* Moya.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F971E5967B0000471FA /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6583CA121E5A27AC00DE8528 /* Mapper.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F991E596A29000471FA /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA211E5A2AF700DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA201E5A2AF700DE8528 /* RxSwift.framework */; };
 		6583CA221E5A2B1800DE8528 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */; };
 		6583CA281E5A2C8700DE8528 /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
@@ -69,14 +81,12 @@
 		6583CA7C1E5A340400DE8528 /* RxMoya.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA421E5A2D8600DE8528 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA7D1E5A340800DE8528 /* RxSwift.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA201E5A2AF700DE8528 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA7E1E5A341000DE8528 /* RxBlocking.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA411E5A2D8600DE8528 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6583CA7F1E5A341A00DE8528 /* Mapper.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BC1E59F0320022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA801E5A341D00DE8528 /* Nimble.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C61E59F0700022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA811E5A342100DE8528 /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA821E5A348F00DE8528 /* Moya.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CC1E59F3590022936D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA871E5A34C500DE8528 /* RxMoya.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6583CA841E5A34A300DE8528 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA881E5A34CB00DE8528 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6583CA6F1E5A326D00DE8528 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA891E5A34CF00DE8528 /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6583CA831E5A34A300DE8528 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6583CA8A1E5A34DB00DE8528 /* Mapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CB1E59F3590022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA8B1E5A34DE00DE8528 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D41E59F3EF0022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA8C1E5A34E000DE8528 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA8D1E5A34F300DE8528 /* Observable+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6D1E595CFF000471FA /* Observable+Unbox.swift */; };
@@ -90,7 +100,6 @@
 		65D3DED41E5B1F780001A05A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; };
 		65D3DED81E5B1F780001A05A /* Result.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5692A1E5A03E50022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DED91E5B1F780001A05A /* Alamofire.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BB1E59F0320022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65D3DEDA1E5B1F780001A05A /* Mapper.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BC1E59F0320022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEDC1E5B1F780001A05A /* Nimble.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C61E59F0700022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEDD1E5B1F780001A05A /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEE31E5B204A0001A05A /* SignalProducer+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6B1E595CFF000471FA /* SignalProducer+Unbox.swift */; };
@@ -111,7 +120,6 @@
 		65D3DF111E5B24100001A05A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; };
 		65D3DF151E5B24100001A05A /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F569341E5A04D10022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF161E5B24100001A05A /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CA1E59F3590022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65D3DF171E5B24100001A05A /* Mapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CB1E59F3590022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF191E5B24100001A05A /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D41E59F3EF0022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF1A1E5B24100001A05A /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF221E5B247E0001A05A /* SignalProducer+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6B1E595CFF000471FA /* SignalProducer+Unbox.swift */; };
@@ -129,12 +137,10 @@
 		65F26F701E595CFF000471FA /* Response+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F691E595CFF000471FA /* Response+Unbox.swift */; };
 		65F26F711E595CFF000471FA /* Response+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F691E595CFF000471FA /* Response+Unbox.swift */; };
 		65F26F981E5967B0000471FA /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F971E5967B0000471FA /* Moya.framework */; };
-		65F26F9A1E596A29000471FA /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F991E596A29000471FA /* Mapper.framework */; };
 		65F26F9D1E596F6A000471FA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; };
 		65F26F9E1E596F6A000471FA /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9C1E596F6A000471FA /* Quick.framework */; };
 		65F26FA21E597250000471FA /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
 		65F26FA41E597268000471FA /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA31E597268000471FA /* Repository.swift */; };
-		65F568BF1E59F0320022936D /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BC1E59F0320022936D /* Mapper.framework */; };
 		65F568C01E59F0320022936D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BD1E59F0320022936D /* Moya.framework */; };
 		65F568C11E59F0490022936D /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
 		65F568C21E59F04A0022936D /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
@@ -143,28 +149,22 @@
 		65F568C51E59F0700022936D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BB1E59F0320022936D /* Alamofire.framework */; };
 		65F568C81E59F0700022936D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C61E59F0700022936D /* Nimble.framework */; };
 		65F568C91E59F0700022936D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; };
-		65F568CE1E59F3590022936D /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568CB1E59F3590022936D /* Mapper.framework */; };
 		65F568CF1E59F3590022936D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568CC1E59F3590022936D /* Moya.framework */; };
 		65F568D61E59F3EF0022936D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568D41E59F3EF0022936D /* Nimble.framework */; };
 		65F568D71E59F3EF0022936D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; };
 		65F568DA1E59F9550022936D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568CA1E59F3590022936D /* Alamofire.framework */; };
-		65F568DF1E59F9AA0022936D /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568DC1E59F9AA0022936D /* Mapper.framework */; };
-		65F568E01E59F9AA0022936D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568DD1E59F9AA0022936D /* Moya.framework */; };
 		65F569051E5A02440022936D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568B21E59CC4B0022936D /* Alamofire.framework */; };
 		65F569081E5A02700022936D /* Alamofire.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568B21E59CC4B0022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F5690B1E5A02700022936D /* Nimble.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F5690C1E5A02700022936D /* Quick.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9C1E596F6A000471FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569151E5A02AB0022936D /* Result.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568F31E5A011C0022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569161E5A02B80022936D /* Moya.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F971E5967B0000471FA /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65F569171E5A02CC0022936D /* Mapper.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F991E596A29000471FA /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569251E5A03A90022936D /* Alamofire.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BB1E59F0320022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65F569261E5A03A90022936D /* Mapper.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BC1E59F0320022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569271E5A03A90022936D /* Moya.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BD1E59F0320022936D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569281E5A03A90022936D /* Nimble.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C61E59F0700022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569291E5A03A90022936D /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F5692B1E5A03E50022936D /* Result.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5692A1E5A03E50022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F5692F1E5A04BD0022936D /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CA1E59F3590022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		65F569301E5A04BD0022936D /* Mapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CB1E59F3590022936D /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569311E5A04BD0022936D /* Moya.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CC1E59F3590022936D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569321E5A04BD0022936D /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D41E59F3EF0022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65F569331E5A04BD0022936D /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -259,9 +259,9 @@
 				651AC8FB1E5A9700000F24CF /* Result.framework in Carthage Copy Frameworks */,
 				651AC8FC1E5A9700000F24CF /* Alamofire.framework in Carthage Copy Frameworks */,
 				651AC8FD1E5A9700000F24CF /* Moya.framework in Carthage Copy Frameworks */,
+				31E60C181E6CA74C004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */,
 				651AC90E1E5A9A76000F24CF /* ReactiveMoya.framework in Carthage Copy Frameworks */,
 				651AC90F1E5A9A79000F24CF /* ReactiveSwift.framework in Carthage Copy Frameworks */,
-				651AC8FE1E5A9700000F24CF /* Mapper.framework in Carthage Copy Frameworks */,
 				651AC8FF1E5A9700000F24CF /* Nimble.framework in Carthage Copy Frameworks */,
 				651AC9001E5A9700000F24CF /* Quick.framework in Carthage Copy Frameworks */,
 			);
@@ -277,10 +277,10 @@
 				6583CA791E5A33F900DE8528 /* Result.framework in Copy Carthage Frameworks */,
 				6583CA7A1E5A33FB00DE8528 /* Alamofire.framework in Copy Carthage Frameworks */,
 				6583CA7B1E5A33FD00DE8528 /* Moya.framework in Copy Carthage Frameworks */,
+				31E60C1A1E6CA76D004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */,
 				6583CA7C1E5A340400DE8528 /* RxMoya.framework in Copy Carthage Frameworks */,
 				6583CA7D1E5A340800DE8528 /* RxSwift.framework in Copy Carthage Frameworks */,
 				6583CA7E1E5A341000DE8528 /* RxBlocking.framework in Copy Carthage Frameworks */,
-				6583CA7F1E5A341A00DE8528 /* Mapper.framework in Copy Carthage Frameworks */,
 				6583CA801E5A341D00DE8528 /* Nimble.framework in Copy Carthage Frameworks */,
 				6583CA811E5A342100DE8528 /* Quick.framework in Copy Carthage Frameworks */,
 			);
@@ -296,10 +296,10 @@
 				6583CA631E5A304B00DE8528 /* Result.framework in CopyFiles */,
 				6583CA641E5A304B00DE8528 /* Alamofire.framework in CopyFiles */,
 				6583CA821E5A348F00DE8528 /* Moya.framework in CopyFiles */,
+				31E60C1C1E6CA786004F6CE1 /* Unbox.framework in CopyFiles */,
 				6583CA871E5A34C500DE8528 /* RxMoya.framework in CopyFiles */,
 				6583CA881E5A34CB00DE8528 /* RxSwift.framework in CopyFiles */,
 				6583CA891E5A34CF00DE8528 /* RxBlocking.framework in CopyFiles */,
-				6583CA8A1E5A34DB00DE8528 /* Mapper.framework in CopyFiles */,
 				6583CA8B1E5A34DE00DE8528 /* Nimble.framework in CopyFiles */,
 				6583CA8C1E5A34E000DE8528 /* Quick.framework in CopyFiles */,
 			);
@@ -313,10 +313,10 @@
 			files = (
 				65D3DED81E5B1F780001A05A /* Result.framework in Copy Carthage Frameworks */,
 				65D3DED91E5B1F780001A05A /* Alamofire.framework in Copy Carthage Frameworks */,
+				31E60C0B1E6C9C9F004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */,
 				65D3DEF01E5B229C0001A05A /* Moya.framework in Copy Carthage Frameworks */,
 				65D3DEF11E5B22A00001A05A /* ReactiveMoya.framework in Copy Carthage Frameworks */,
 				65D3DEF21E5B22AA0001A05A /* ReactiveSwift.framework in Copy Carthage Frameworks */,
-				65D3DEDA1E5B1F780001A05A /* Mapper.framework in Copy Carthage Frameworks */,
 				65D3DEDC1E5B1F780001A05A /* Nimble.framework in Copy Carthage Frameworks */,
 				65D3DEDD1E5B1F780001A05A /* Quick.framework in Copy Carthage Frameworks */,
 			);
@@ -332,9 +332,9 @@
 				65D3DF151E5B24100001A05A /* Result.framework in CopyFiles */,
 				65D3DF161E5B24100001A05A /* Alamofire.framework in CopyFiles */,
 				65D3DF241E5B25320001A05A /* Moya.framework in CopyFiles */,
+				31E60C1B1E6CA77D004F6CE1 /* Unbox.framework in CopyFiles */,
 				65D3DF251E5B25390001A05A /* ReactiveMoya.framework in CopyFiles */,
 				65D3DF261E5B25440001A05A /* ReactiveSwift.framework in CopyFiles */,
-				65D3DF171E5B24100001A05A /* Mapper.framework in CopyFiles */,
 				65D3DF191E5B24100001A05A /* Nimble.framework in CopyFiles */,
 				65D3DF1A1E5B24100001A05A /* Quick.framework in CopyFiles */,
 			);
@@ -349,7 +349,7 @@
 				65F569151E5A02AB0022936D /* Result.framework in Carthage Copy Frameworks */,
 				65F569081E5A02700022936D /* Alamofire.framework in Carthage Copy Frameworks */,
 				65F569161E5A02B80022936D /* Moya.framework in Carthage Copy Frameworks */,
-				65F569171E5A02CC0022936D /* Mapper.framework in Carthage Copy Frameworks */,
+				31E60C111E6CA564004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */,
 				65F5690B1E5A02700022936D /* Nimble.framework in Carthage Copy Frameworks */,
 				65F5690C1E5A02700022936D /* Quick.framework in Carthage Copy Frameworks */,
 			);
@@ -364,7 +364,7 @@
 			files = (
 				65F5692B1E5A03E50022936D /* Result.framework in Copy Carthage Frameworks */,
 				65F569251E5A03A90022936D /* Alamofire.framework in Copy Carthage Frameworks */,
-				65F569261E5A03A90022936D /* Mapper.framework in Copy Carthage Frameworks */,
+				31E60C091E6C9C7D004F6CE1 /* Unbox.framework in Copy Carthage Frameworks */,
 				65F569271E5A03A90022936D /* Moya.framework in Copy Carthage Frameworks */,
 				65F569281E5A03A90022936D /* Nimble.framework in Copy Carthage Frameworks */,
 				65F569291E5A03A90022936D /* Quick.framework in Copy Carthage Frameworks */,
@@ -380,8 +380,8 @@
 			files = (
 				65F569351E5A04D10022936D /* Result.framework in CopyFiles */,
 				65F5692F1E5A04BD0022936D /* Alamofire.framework in CopyFiles */,
-				65F569301E5A04BD0022936D /* Mapper.framework in CopyFiles */,
 				65F569311E5A04BD0022936D /* Moya.framework in CopyFiles */,
+				31E60C141E6CA59D004F6CE1 /* Unbox.framework in CopyFiles */,
 				65F569321E5A04BD0022936D /* Nimble.framework in CopyFiles */,
 				65F569331E5A04BD0022936D /* Quick.framework in CopyFiles */,
 			);
@@ -396,10 +396,10 @@
 				6583CA0F1E5A271C00DE8528 /* Result.framework in Carthage Copy Frameworks */,
 				6583CA0E1E5A270E00DE8528 /* Alamofire.framework in Carthage Copy Frameworks */,
 				6583CA111E5A275600DE8528 /* Moya.framework in Carthage Copy Frameworks */,
+				31E60C191E6CA758004F6CE1 /* Unbox.framework in Carthage Copy Frameworks */,
 				6583CA0D1E5A26AC00DE8528 /* RxMoya.framework in Carthage Copy Frameworks */,
 				6583CA101E5A274700DE8528 /* RxSwift.framework in Carthage Copy Frameworks */,
 				6583CA0B1E5A268700DE8528 /* RxBlocking.framework in Carthage Copy Frameworks */,
-				6583CA121E5A27AC00DE8528 /* Mapper.framework in Carthage Copy Frameworks */,
 				6583CA071E5A265600DE8528 /* Nimble.framework in Carthage Copy Frameworks */,
 				6583CA081E5A265600DE8528 /* Quick.framework in Carthage Copy Frameworks */,
 			);
@@ -409,6 +409,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3159AE8B1E6CD007004F2021 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/watchOS/Moya.framework; sourceTree = "<group>"; };
+		31E60C071E6C9C41004F6CE1 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/Mac/Unbox.framework; sourceTree = "<group>"; };
+		31E60C0F1E6CA522004F6CE1 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/iOS/Unbox.framework; sourceTree = "<group>"; };
+		31E60C121E6CA584004F6CE1 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/tvOS/Unbox.framework; sourceTree = "<group>"; };
+		31E60C161E6CA644004F6CE1 /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unbox.framework; path = Carthage/Build/watchOS/Unbox.framework; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* MoyaUnbox-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaUnbox-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9971BEFF375002C0205 /* MoyaUnboxSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoyaUnboxSpec.swift; path = Tests/MoyaUnboxTests/MoyaUnboxSpec.swift; sourceTree = "<group>"; };
@@ -448,25 +453,20 @@
 		65F26F6B1E595CFF000471FA /* SignalProducer+Unbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+Unbox.swift"; sourceTree = "<group>"; };
 		65F26F6D1E595CFF000471FA /* Observable+Unbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Unbox.swift"; sourceTree = "<group>"; };
 		65F26F971E5967B0000471FA /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
-		65F26F991E596A29000471FA /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Build/iOS/Mapper.framework; sourceTree = "<group>"; };
 		65F26F9B1E596F6A000471FA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		65F26F9C1E596F6A000471FA /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		65F26FA11E597250000471FA /* GithubEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GithubEndpoint.swift; path = Tests/MoyaUnboxTests/API/GithubEndpoint.swift; sourceTree = "<group>"; };
 		65F26FA31E597268000471FA /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = Tests/MoyaUnboxTests/API/Repository.swift; sourceTree = "<group>"; };
 		65F568B21E59CC4B0022936D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		65F568BB1E59F0320022936D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		65F568BC1E59F0320022936D /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Build/Mac/Mapper.framework; sourceTree = "<group>"; };
 		65F568BD1E59F0320022936D /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/Mac/Moya.framework; sourceTree = "<group>"; };
 		65F568C61E59F0700022936D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		65F568C71E59F0700022936D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		65F568CA1E59F3590022936D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
-		65F568CB1E59F3590022936D /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Build/tvOS/Mapper.framework; sourceTree = "<group>"; };
 		65F568CC1E59F3590022936D /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/tvOS/Moya.framework; sourceTree = "<group>"; };
 		65F568D41E59F3EF0022936D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		65F568D51E59F3EF0022936D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		65F568DB1E59F9AA0022936D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
-		65F568DC1E59F9AA0022936D /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Build/watchOS/Mapper.framework; sourceTree = "<group>"; };
-		65F568DD1E59F9AA0022936D /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/watchOS/Moya.framework; sourceTree = "<group>"; };
 		65F568F31E5A011C0022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		65F5692A1E5A03E50022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		65F569341E5A04D10022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
@@ -485,7 +485,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F26F9A1E596A29000471FA /* Mapper.framework in Frameworks */,
+				31E60C101E6CA522004F6CE1 /* Unbox.framework in Frameworks */,
 				65F26F981E5967B0000471FA /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,8 +505,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F568DF1E59F9AA0022936D /* Mapper.framework in Frameworks */,
-				65F568E01E59F9AA0022936D /* Moya.framework in Frameworks */,
+				31E60C171E6CA644004F6CE1 /* Unbox.framework in Frameworks */,
+				3159AE8C1E6CD007004F2021 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +514,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F568CE1E59F3590022936D /* Mapper.framework in Frameworks */,
+				31E60C131E6CA584004F6CE1 /* Unbox.framework in Frameworks */,
 				65F568CF1E59F3590022936D /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +523,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F568BF1E59F0320022936D /* Mapper.framework in Frameworks */,
+				31E60C081E6C9C41004F6CE1 /* Unbox.framework in Frameworks */,
 				65F568C01E59F0320022936D /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,8 +574,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6583CA701E5A326D00DE8528 /* RxSwift.framework in Frameworks */,
 				6583CA6E1E5A325D00DE8528 /* MoyaUnbox.framework in Frameworks */,
+				6583CA701E5A326D00DE8528 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,8 +595,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6583CA9E1E5A36DC00DE8528 /* RxSwift.framework in Frameworks */,
 				6583CA9C1E5A36C700DE8528 /* MoyaUnbox.framework in Frameworks */,
+				6583CA9E1E5A36DC00DE8528 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,8 +604,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D3DEE81E5B21ED0001A05A /* ReactiveSwift.framework in Frameworks */,
 				65D3DEE61E5B21CB0001A05A /* MoyaUnbox.framework in Frameworks */,
+				65D3DEE81E5B21ED0001A05A /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,8 +625,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D3DF051E5B23AF0001A05A /* ReactiveSwift.framework in Frameworks */,
 				65D3DF061E5B23D50001A05A /* MoyaUnbox.framework in Frameworks */,
+				65D3DF051E5B23AF0001A05A /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,8 +646,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D3DF391E5B25FA0001A05A /* ReactiveSwift.framework in Frameworks */,
 				65D3DF371E5B25EE0001A05A /* MoyaUnbox.framework in Frameworks */,
+				65D3DF391E5B25FA0001A05A /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,7 +841,6 @@
 			isa = PBXGroup;
 			children = (
 				65F568B21E59CC4B0022936D /* Alamofire.framework */,
-				65F26F991E596A29000471FA /* Mapper.framework */,
 				65F26F971E5967B0000471FA /* Moya.framework */,
 				65F26F9B1E596F6A000471FA /* Nimble.framework */,
 				65F26F9C1E596F6A000471FA /* Quick.framework */,
@@ -851,6 +850,7 @@
 				6583C9F91E5A25B700DE8528 /* RxBlocking.framework */,
 				6583C9FA1E5A25B700DE8528 /* RxMoya.framework */,
 				65F56AA01E5A1A020022936D /* RxSwift.framework */,
+				31E60C0F1E6CA522004F6CE1 /* Unbox.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -859,7 +859,6 @@
 			isa = PBXGroup;
 			children = (
 				65F568CA1E59F3590022936D /* Alamofire.framework */,
-				65F568CB1E59F3590022936D /* Mapper.framework */,
 				65F568CC1E59F3590022936D /* Moya.framework */,
 				65F568D41E59F3EF0022936D /* Nimble.framework */,
 				65F568D51E59F3EF0022936D /* Quick.framework */,
@@ -869,6 +868,7 @@
 				6583CA831E5A34A300DE8528 /* RxBlocking.framework */,
 				6583CA841E5A34A300DE8528 /* RxMoya.framework */,
 				6583CA6F1E5A326D00DE8528 /* RxSwift.framework */,
+				31E60C121E6CA584004F6CE1 /* Unbox.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -877,7 +877,6 @@
 			isa = PBXGroup;
 			children = (
 				65F568BB1E59F0320022936D /* Alamofire.framework */,
-				65F568BC1E59F0320022936D /* Mapper.framework */,
 				65F568BD1E59F0320022936D /* Moya.framework */,
 				65F568C61E59F0700022936D /* Nimble.framework */,
 				65F568C71E59F0700022936D /* Quick.framework */,
@@ -887,6 +886,7 @@
 				6583CA411E5A2D8600DE8528 /* RxBlocking.framework */,
 				6583CA421E5A2D8600DE8528 /* RxMoya.framework */,
 				6583CA201E5A2AF700DE8528 /* RxSwift.framework */,
+				31E60C071E6C9C41004F6CE1 /* Unbox.framework */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -895,10 +895,10 @@
 			isa = PBXGroup;
 			children = (
 				65F568DB1E59F9AA0022936D /* Alamofire.framework */,
-				65F568DC1E59F9AA0022936D /* Mapper.framework */,
-				65F568DD1E59F9AA0022936D /* Moya.framework */,
+				3159AE8B1E6CD007004F2021 /* Moya.framework */,
 				6583CA9D1E5A36DC00DE8528 /* RxSwift.framework */,
 				65D3DF381E5B25FA0001A05A /* ReactiveSwift.framework */,
+				31E60C161E6CA644004F6CE1 /* Unbox.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
@@ -2491,7 +2491,7 @@
 				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaUnbox-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaUnbox-watchOS";
 				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2517,7 +2517,7 @@
 				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaUnbox-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaUnbox-watchOS";
 				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

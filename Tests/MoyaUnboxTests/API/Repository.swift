@@ -2,7 +2,7 @@
 //  Repository.swift
 //  MoyaUnbox
 //
-//  Created by Gustavo Perdomo on 2/19/17.
+//  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,18 +25,18 @@
 //
 
 import Foundation
-import Mapper
+import Unbox
 
-struct Repository: Mappable {
+struct Repository: Unboxable {
     let identifier: Int
     let name: String
     let fullName: String
     let language: String? // Optional property
 
-    init(map: Mapper) throws {
-        try identifier = map.from("id")
-        try name = map.from("name")
-        try fullName = map.from("full_name")
-        language = map.optionalFrom("language") // Optional property
+    init(unboxer: Unboxer) throws {
+        identifier = try unboxer.unbox(key: "id")
+        name = try unboxer.unbox(key: "name")
+        fullName = try unboxer.unbox(key: "full_name")
+        language = unboxer.unbox(key: "language")
     }
 }

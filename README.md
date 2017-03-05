@@ -29,23 +29,23 @@ pod 'MoyaUnbox/ReactiveSwift', '1.0.0'
 
 # Usage
 
-Create a model struct or class. It needs to implement protocol Mappable. More details about model creation [here](https://github.com/JohnSundell/Unbox/)
+Create a model struct or class. It needs to implement protocol Unboxable. More details about model creation [here](https://github.com/JohnSundell/Unbox/)
 
 ```swift
 import Foundation
-import Mapper
+import Unbox
 
-struct Repository: Mappable {
+struct Repository: Unboxable {
     let identifier: Int
     let name: String
     let fullName: String
     let language: String? // Optional property
 
-    init(map: Mapper) throws {
-        try identifier = map.from("id")
-        try name = map.from("name")
-        try fullName = map.from("full_name")
-        language = map.optionalFrom("language") // Optional property
+    init(unboxer: Unboxer) throws {
+        identifier = try unboxer.unbox(key: "id")
+        name = try unboxer.unbox(key: "name")
+        fullName = try unboxer.unbox(key: "full_name")
+        language = unboxer.unbox(key: "language")
     }
 }
 ```
@@ -170,8 +170,8 @@ provider
 There's a sample project in the Demo directory. To use it, run `pod install` to download the required libraries. Have fun!
 
 ## Other Mappers
+ - [MoyaModelMapper](https://github.com/gperdomor/MoyaModelMapper): ModelMapper bindings for Moya
  - [MoyaObjectMapper](https://github.com/gperdomor/MoyaObjectMapper): ObjectMapper bindings for Moya
- - [MoyaUnbox](https://github.com/gperdomor/MoyaUnbox): Unbox bindings for Moya
 
 ## Contributing
 
