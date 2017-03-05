@@ -5,7 +5,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/MoyaUnbox.svg)](https://cocoapods.org/pods/MoyaUnbox)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
-[ModelMapper](https://github.com/lyft/mapper) bindings for 
+[Unbox](https://github.com/JohnSundell/Unbox) bindings for 
 [Moya](https://github.com/Moya/Moya) for easier JSON serialization. Includes
 [RxSwift](https://github.com/ReactiveX/RxSwift) and [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) bindings as well.
 
@@ -14,22 +14,22 @@
 ## CocoaPods
 Use the following entry in your Podfile
 ```
-pod 'MoyaUnbox', '1.0.1'
+pod 'MoyaUnbox', '1.0.0'
 ```
 
 The subspec if you want to use the bindings over RxSwift.
 ```
-pod 'MoyaUnbox/RxSwift', '1.0.1'
+pod 'MoyaUnbox/RxSwift', '1.0.0'
 ```
 
 And the subspec if you want to use the bindings over ReactiveSwift.
 ```
-pod 'MoyaUnbox/ReactiveSwift', '1.0.1'
+pod 'MoyaUnbox/ReactiveSwift', '1.0.0'
 ```
 
 # Usage
 
-Create a model struct or class. It needs to implement protocol Mappable. More details about model creation [here](https://github.com/lyft/mapper/)
+Create a model struct or class. It needs to implement protocol Mappable. More details about model creation [here](https://github.com/JohnSundell/Unbox/)
 
 ```swift
 import Foundation

@@ -1,5 +1,5 @@
 //
-//  Observable+ModelMapper.swift
+//  Observable+Unbox.swift
 //  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 2/19/17.

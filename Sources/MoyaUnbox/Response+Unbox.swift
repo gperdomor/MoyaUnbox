@@ -1,5 +1,5 @@
 //
-//  Response+ModelMapper.swift
+//  Response+Unbox.swift
 //  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 2/19/17.
