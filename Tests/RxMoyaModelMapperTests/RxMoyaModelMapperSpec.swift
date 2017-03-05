@@ -1,6 +1,6 @@
 //
-//  RxMoyaModelMapperSpec.swift
-//  MoyaModelMapper
+//  RxMoyaUnboxSpec.swift
+//  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 2/19/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
@@ -28,13 +28,13 @@ import Foundation
 import Quick
 import Nimble
 import RxMoya
-import RxMoyaModelMapper
+import RxMoyaUnbox
 import Moya
 import RxBlocking
 
-class RxMoyaModelMapperSpec: QuickSpec {
+class RxMoyaUnboxSpec: QuickSpec {
     override func spec() {
-        describe("RxMoyaModelMapper") {
+        describe("RxMoyaUnbox") {
             var provider: RxMoyaProvider<GitHub>!
 
             beforeEach {

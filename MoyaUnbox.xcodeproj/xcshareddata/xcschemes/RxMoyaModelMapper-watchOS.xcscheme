@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
-               BuildableName = "RxMoyaModelMapper.framework"
+               BuildableName = "RxMoyaUnbox.framework"
                BlueprintName = "RxMoyaUnbox-watchOS"
                ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
-            BuildableName = "RxMoyaModelMapper.framework"
+            BuildableName = "RxMoyaUnbox.framework"
             BlueprintName = "RxMoyaUnbox-watchOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
-            BuildableName = "RxMoyaModelMapper.framework"
+            BuildableName = "RxMoyaUnbox.framework"
             BlueprintName = "RxMoyaUnbox-watchOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>

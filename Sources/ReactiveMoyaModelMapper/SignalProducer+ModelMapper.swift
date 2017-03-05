@@ -1,6 +1,6 @@
 //
 //  SignalProducer+ModelMapper.swift
-//  MoyaModelMapper
+//  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 2/19/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
@@ -28,7 +28,7 @@ import Foundation
 import ReactiveSwift
 import Moya
 import Mapper
-import MoyaModelMapper
+import MoyaUnbox
 
 extension SignalProducerProtocol where Value == Moya.Response, Error == MoyaError {
 

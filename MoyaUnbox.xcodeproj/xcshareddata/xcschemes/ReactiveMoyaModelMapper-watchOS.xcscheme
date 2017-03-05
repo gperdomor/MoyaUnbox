@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-               BuildableName = "ReactiveMoyaModelMapper.framework"
+               BuildableName = "ReactiveMoyaUnbox.framework"
                BlueprintName = "ReactiveMoyaUnbox-watchOS"
                ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
+            BuildableName = "ReactiveMoyaUnbox.framework"
             BlueprintName = "ReactiveMoyaUnbox-watchOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
+            BuildableName = "ReactiveMoyaUnbox.framework"
             BlueprintName = "ReactiveMoyaUnbox-watchOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>

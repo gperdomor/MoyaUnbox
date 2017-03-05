@@ -1,6 +1,6 @@
 //
-//  ReactiveMoyaModelMapperSpec.swift
-//  MoyaModelMapper
+//  ReactiveMoyaUnboxSpec.swift
+//  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 2/20/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
@@ -28,12 +28,12 @@ import Foundation
 import Quick
 import Nimble
 import ReactiveMoya
-import ReactiveMoyaModelMapper
+import ReactiveMoyaUnbox
 import Moya
 
-class ReactiveMoyaModelMapperSpec: QuickSpec {
+class ReactiveMoyaUnboxSpec: QuickSpec {
     override func spec() {
-        describe("ReactiveMoyaModelMapper") {
+        describe("ReactiveMoyaUnbox") {
             var provider: ReactiveSwiftMoyaProvider<GitHub>!
 
             beforeEach {

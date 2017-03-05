@@ -1,8 +1,8 @@
-# MoyaModelMapper
-[![Build Status](https://travis-ci.org/gperdomor/MoyaModelMapper.svg?branch=master)](https://travis-ci.org/gperdomor/MoyaModelMapper)
-[![codecov](https://codecov.io/gh/gperdomor/MoyaModelMapper/branch/master/graph/badge.svg)](https://codecov.io/gh/gperdomor/MoyaModelMapper)
+# MoyaUnbox
+[![Build Status](https://travis-ci.org/gperdomor/MoyaUnbox.svg?branch=master)](https://travis-ci.org/gperdomor/MoyaUnbox)
+[![codecov](https://codecov.io/gh/gperdomor/MoyaUnbox/branch/master/graph/badge.svg)](https://codecov.io/gh/gperdomor/MoyaUnbox)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/MoyaModelMapper.svg)](https://cocoapods.org/pods/MoyaModelMapper)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/MoyaUnbox.svg)](https://cocoapods.org/pods/MoyaUnbox)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 [ModelMapper](https://github.com/lyft/mapper) bindings for 
@@ -14,17 +14,17 @@
 ## CocoaPods
 Use the following entry in your Podfile
 ```
-pod 'MoyaModelMapper', '1.0.1'
+pod 'MoyaUnbox', '1.0.1'
 ```
 
 The subspec if you want to use the bindings over RxSwift.
 ```
-pod 'MoyaModelMapper/RxSwift', '1.0.1'
+pod 'MoyaUnbox/RxSwift', '1.0.1'
 ```
 
 And the subspec if you want to use the bindings over ReactiveSwift.
 ```
-pod 'MoyaModelMapper/ReactiveSwift', '1.0.1'
+pod 'MoyaUnbox/ReactiveSwift', '1.0.1'
 ```
 
 # Usage
@@ -175,9 +175,9 @@ There's a sample project in the Demo directory. To use it, run `pod install` to 
 
 ## Contributing
 
-Hey! Like MoyaModelMapper? Awesome! We could actually really use your help!
+Hey! Like MoyaUnbox? Awesome! We could actually really use your help!
 
-Open source isn't just writing code. MoyaModelMapper could use your help with any of the
+Open source isn't just writing code. MoyaUnbox could use your help with any of the
 following:
 
 - Finding (and reporting!) bugs.
@@ -194,4 +194,4 @@ requests and help steer the ship :ship:
 
 ## License
 
-MoyaModelMapper is available under the MIT license. See the LICENSE file for more info.
+MoyaUnbox is available under the MIT license. See the LICENSE file for more info.

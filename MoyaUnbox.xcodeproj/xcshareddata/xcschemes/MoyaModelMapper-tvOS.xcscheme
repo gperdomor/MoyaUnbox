@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-               BuildableName = "MoyaModelMapper.framework"
+               BuildableName = "MoyaUnbox.framework"
                BlueprintName = "MoyaUnbox-tvOS"
                ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
+            BuildableName = "MoyaUnbox.framework"
             BlueprintName = "MoyaUnbox-tvOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
+            BuildableName = "MoyaUnbox.framework"
             BlueprintName = "MoyaUnbox-tvOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
+            BuildableName = "MoyaUnbox.framework"
             BlueprintName = "MoyaUnbox-tvOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>

@@ -7,12 +7,12 @@ cache:
   directories:
   - Carthage
 
-xcode_project: MoyaModelMapper.xcodeproj 
+xcode_project: MoyaUnbox.xcodeproj 
 
 xcode_scheme:
-  - MoyaModelMapper
-  - RxMoyaModelMapper
-  - ReactiveMoyaModelMapper
+  - MoyaUnbox
+  - RxMoyaUnbox
+  - ReactiveMoyaUnbox
 
 env:
   - CACHE_NAME=iOS       PLATFORM=iOS
@@ -60,7 +60,7 @@ before_script:
         ;;
     esac
 
-  - if [ ${SCHEME} == "MoyaModelMapper-iOS" ]; then
+  - if [ ${SCHEME} == "MoyaUnbox-iOS" ]; then
       export POD_LINT="YES";
     fi
 

@@ -1,11 +1,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "MoyaModelMapper",
+    name: "MoyaUnbox",
     targets: [
-        Target(name: "MoyaModelMapper"),
-        Target(name: "RxMoyaModelMapper", dependencies: ["MoyaModelMapper"]),
-        Target(name: "ReactiveMoyaModelMapper", dependencies: ["MoyaModelMapper"])
+        Target(name: "MoyaUnbox"),
+        Target(name: "RxMoyaUnbox", dependencies: ["MoyaUnbox"]),
+        Target(name: "ReactiveMoyaUnbox", dependencies: ["MoyaUnbox"])
     ],
     dependencies: [
         .Package(url: "https://github.com/Quick/Nimble.git", majorVersion: 6),

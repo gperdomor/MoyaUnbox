@@ -28,7 +28,7 @@ import Foundation
 import Moya
 import RxSwift
 import RxOptional
-import MoyaModelMapper
+import MoyaUnbox
 
 class RxIssueTracker {
     let provider = RxMoyaProvider<GitHub>()

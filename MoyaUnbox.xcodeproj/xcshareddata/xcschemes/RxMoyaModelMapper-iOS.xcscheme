@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65F56A721E5A17800022936D"
-               BuildableName = "RxMoyaModelMapper.framework"
+               BuildableName = "RxMoyaUnbox.framework"
                BlueprintName = "RxMoyaUnbox-iOS"
                ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65F56A721E5A17800022936D"
-            BuildableName = "RxMoyaModelMapper.framework"
+            BuildableName = "RxMoyaUnbox.framework"
             BlueprintName = "RxMoyaUnbox-iOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65F56A721E5A17800022936D"
-            BuildableName = "RxMoyaModelMapper.framework"
+            BuildableName = "RxMoyaUnbox.framework"
             BlueprintName = "RxMoyaUnbox-iOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>

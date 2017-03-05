@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
-               BuildableName = "ReactiveMoyaModelMapper.framework"
+               BuildableName = "ReactiveMoyaUnbox.framework"
                BlueprintName = "ReactiveMoyaUnbox-iOS"
                ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
+            BuildableName = "ReactiveMoyaUnbox.framework"
             BlueprintName = "ReactiveMoyaUnbox-iOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
+            BuildableName = "ReactiveMoyaUnbox.framework"
             BlueprintName = "ReactiveMoyaUnbox-iOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
@@ -98,7 +98,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
+            BuildableName = "ReactiveMoyaUnbox.framework"
             BlueprintName = "ReactiveMoyaUnbox-iOS"
             ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
