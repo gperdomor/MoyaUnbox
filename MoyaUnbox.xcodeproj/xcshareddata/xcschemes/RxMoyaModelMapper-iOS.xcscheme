@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-               BuildableName = "MoyaModelMapper.framework"
-               BlueprintName = "MoyaModelMapper-tvOS"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BlueprintIdentifier = "65F56A721E5A17800022936D"
+               BuildableName = "RxMoyaModelMapper.framework"
+               BlueprintName = "RxMoyaUnbox-iOS"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "65F56A841E5A190A0022936D"
+               BuildableName = "RxMoyaUnbox-iOS Tests.xctest"
+               BlueprintName = "RxMoyaUnbox-iOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +47,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD75028C1C690C7A006590AF"
-               BuildableName = "MoyaModelMapper-tvOS Tests.xctest"
-               BlueprintName = "MoyaModelMapper-tvOS Tests"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BlueprintIdentifier = "65F56A841E5A190A0022936D"
+               BuildableName = "RxMoyaUnbox-iOS Tests.xctest"
+               BlueprintName = "RxMoyaUnbox-iOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
-            BlueprintName = "MoyaModelMapper-tvOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintIdentifier = "65F56A721E5A17800022936D"
+            BuildableName = "RxMoyaModelMapper.framework"
+            BlueprintName = "RxMoyaUnbox-iOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +79,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
-            BlueprintName = "MoyaModelMapper-tvOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintIdentifier = "65F56A721E5A17800022936D"
+            BuildableName = "RxMoyaModelMapper.framework"
+            BlueprintName = "RxMoyaUnbox-iOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,15 +94,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D9EF1BEFFFBE002C0205"
-            BuildableName = "MoyaModelMapper.framework"
-            BlueprintName = "MoyaModelMapper-tvOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

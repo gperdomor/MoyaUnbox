@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-               BuildableName = "ReactiveMoyaModelMapper.framework"
-               BlueprintName = "ReactiveMoyaModelMapper-watchOS"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BlueprintIdentifier = "52D6D9E11BEFFF6E002C0205"
+               BuildableName = "MoyaModelMapper.framework"
+               BlueprintName = "MoyaUnbox-watchOS"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,10 +46,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
-            BlueprintName = "ReactiveMoyaModelMapper-watchOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintIdentifier = "52D6D9E11BEFFF6E002C0205"
+            BuildableName = "MoyaModelMapper.framework"
+            BlueprintName = "MoyaUnbox-watchOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65D3DF291E5B25C10001A05A"
-            BuildableName = "ReactiveMoyaModelMapper.framework"
-            BlueprintName = "ReactiveMoyaModelMapper-watchOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintIdentifier = "52D6D9E11BEFFF6E002C0205"
+            BuildableName = "MoyaModelMapper.framework"
+            BlueprintName = "MoyaUnbox-watchOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

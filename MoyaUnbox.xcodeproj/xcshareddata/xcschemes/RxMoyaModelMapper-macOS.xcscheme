@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
+               BlueprintIdentifier = "6583CA131E5A27F500DE8528"
                BuildableName = "RxMoyaModelMapper.framework"
-               BlueprintName = "RxMoyaModelMapper-watchOS"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BlueprintName = "RxMoyaUnbox-macOS"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6583CA231E5A2C8700DE8528"
+               BuildableName = "RxMoyaUnbox-macOS Tests.xctest"
+               BlueprintName = "RxMoyaUnbox-macOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,7 +43,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6583CA231E5A2C8700DE8528"
+               BuildableName = "RxMoyaUnbox-macOS Tests.xctest"
+               BlueprintName = "RxMoyaUnbox-macOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6583CA131E5A27F500DE8528"
+            BuildableName = "RxMoyaModelMapper.framework"
+            BlueprintName = "RxMoyaUnbox-macOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,10 +79,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
+            BlueprintIdentifier = "6583CA131E5A27F500DE8528"
             BuildableName = "RxMoyaModelMapper.framework"
-            BlueprintName = "RxMoyaModelMapper-watchOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintName = "RxMoyaUnbox-macOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +97,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6583CA8E1E5A364800DE8528"
+            BlueprintIdentifier = "6583CA131E5A27F500DE8528"
             BuildableName = "RxMoyaModelMapper.framework"
-            BlueprintName = "RxMoyaModelMapper-watchOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintName = "RxMoyaUnbox-macOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52D6D9871BEFF229002C0205 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */; };
+		52D6D9871BEFF229002C0205 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */; };
 		52D6D99B1BEFF375002C0205 /* MoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* MoyaModelMapperSpec.swift */; };
-		651AC8E91E5A91F8000F24CF /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */; };
+		651AC8E91E5A91F8000F24CF /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */; };
 		651AC8EB1E5A921C000F24CF /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8EA1E5A921C000F24CF /* ReactiveSwift.framework */; };
 		651AC8EC1E5A9235000F24CF /* SignalProducer+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6B1E595CFF000471FA /* SignalProducer+ModelMapper.swift */; };
 		651AC8F21E5A9700000F24CF /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
@@ -24,11 +24,11 @@
 		651AC8FF1E5A9700000F24CF /* Nimble.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC9001E5A9700000F24CF /* Quick.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9C1E596F6A000471FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC9081E5A982E000F24CF /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8EA1E5A921C000F24CF /* ReactiveSwift.framework */; };
-		651AC9091E5A985A000F24CF /* ReactiveMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8E71E5A8F14000F24CF /* ReactiveMoyaModelMapper.framework */; };
+		651AC9091E5A985A000F24CF /* ReactiveMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8E71E5A8F14000F24CF /* ReactiveMoyaUnbox.framework */; };
 		651AC90B1E5A98C9000F24CF /* ReactiveMoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC90A1E5A98C9000F24CF /* ReactiveMoyaModelMapperSpec.swift */; };
 		651AC90E1E5A9A76000F24CF /* ReactiveMoya.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC90C1E5A9A04000F24CF /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		651AC90F1E5A9A79000F24CF /* ReactiveSwift.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 651AC8EA1E5A921C000F24CF /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6583C9DA1E5A1D5000DE8528 /* RxMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F56A801E5A17800022936D /* RxMoyaModelMapper.framework */; };
+		6583C9DA1E5A1D5000DE8528 /* RxMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F56A801E5A17800022936D /* RxMoyaUnbox.framework */; };
 		6583C9FF1E5A25EA00DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F56AA01E5A1A020022936D /* RxSwift.framework */; };
 		6583CA001E5A261600DE8528 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568B21E59CC4B0022936D /* Alamofire.framework */; };
 		6583CA071E5A265600DE8528 /* Nimble.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -41,7 +41,7 @@
 		6583CA111E5A275600DE8528 /* Moya.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F971E5967B0000471FA /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA121E5A27AC00DE8528 /* Mapper.framework in Carthage Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F991E596A29000471FA /* Mapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA211E5A2AF700DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA201E5A2AF700DE8528 /* RxSwift.framework */; };
-		6583CA221E5A2B1800DE8528 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */; };
+		6583CA221E5A2B1800DE8528 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */; };
 		6583CA281E5A2C8700DE8528 /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
 		6583CA291E5A2C8700DE8528 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA31E597268000471FA /* Repository.swift */; };
 		6583CA2B1E5A2C8700DE8528 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BB1E59F0320022936D /* Alamofire.framework */; };
@@ -57,11 +57,11 @@
 		6583CA5F1E5A304B00DE8528 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; };
 		6583CA631E5A304B00DE8528 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F569341E5A04D10022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA641E5A304B00DE8528 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568CA1E59F3590022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6583CA6E1E5A325D00DE8528 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */; };
+		6583CA6E1E5A325D00DE8528 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */; };
 		6583CA701E5A326D00DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA6F1E5A326D00DE8528 /* RxSwift.framework */; };
 		6583CA711E5A329A00DE8528 /* RxMoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F56A821E5A19030022936D /* RxMoyaModelMapperSpec.swift */; };
-		6583CA761E5A337C00DE8528 /* RxMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA1E1E5A27F500DE8528 /* RxMoyaModelMapper.framework */; };
-		6583CA771E5A33C300DE8528 /* RxMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA531E5A2FA000DE8528 /* RxMoyaModelMapper.framework */; };
+		6583CA761E5A337C00DE8528 /* RxMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA1E1E5A27F500DE8528 /* RxMoyaUnbox.framework */; };
+		6583CA771E5A33C300DE8528 /* RxMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA531E5A2FA000DE8528 /* RxMoyaUnbox.framework */; };
 		6583CA781E5A33D000DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA201E5A2AF700DE8528 /* RxSwift.framework */; };
 		6583CA791E5A33F900DE8528 /* Result.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5692A1E5A03E50022936D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA7A1E5A33FB00DE8528 /* Alamofire.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BB1E59F0320022936D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -80,7 +80,7 @@
 		6583CA8B1E5A34DE00DE8528 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D41E59F3EF0022936D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA8C1E5A34E000DE8528 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65F568D51E59F3EF0022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6583CA8D1E5A34F300DE8528 /* Observable+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6D1E595CFF000471FA /* Observable+ModelMapper.swift */; };
-		6583CA9C1E5A36C700DE8528 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9E21BEFFF6E002C0205 /* MoyaModelMapper.framework */; };
+		6583CA9C1E5A36C700DE8528 /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9E21BEFFF6E002C0205 /* MoyaUnbox.framework */; };
 		6583CA9E1E5A36DC00DE8528 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6583CA9D1E5A36DC00DE8528 /* RxSwift.framework */; };
 		6583CA9F1E5A375700DE8528 /* Observable+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6D1E595CFF000471FA /* Observable+ModelMapper.swift */; };
 		65D3DECF1E5B1F780001A05A /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
@@ -95,15 +95,15 @@
 		65D3DEDD1E5B1F780001A05A /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568C71E59F0700022936D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEE31E5B204A0001A05A /* SignalProducer+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6B1E595CFF000471FA /* SignalProducer+ModelMapper.swift */; };
 		65D3DEE41E5B20620001A05A /* ReactiveMoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC90A1E5A98C9000F24CF /* ReactiveMoyaModelMapperSpec.swift */; };
-		65D3DEE61E5B21CB0001A05A /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */; };
+		65D3DEE61E5B21CB0001A05A /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */; };
 		65D3DEE81E5B21ED0001A05A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEE71E5B21ED0001A05A /* ReactiveSwift.framework */; };
 		65D3DEEB1E5B22340001A05A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEE71E5B21ED0001A05A /* ReactiveSwift.framework */; };
-		65D3DEED1E5B22550001A05A /* ReactiveMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaModelMapper.framework */; };
+		65D3DEED1E5B22550001A05A /* ReactiveMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaUnbox.framework */; };
 		65D3DEF01E5B229C0001A05A /* Moya.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568BD1E59F0320022936D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEF11E5B22A00001A05A /* ReactiveMoya.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEEE1E5B227C0001A05A /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DEF21E5B22AA0001A05A /* ReactiveSwift.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DEE71E5B21ED0001A05A /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF051E5B23AF0001A05A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DF031E5B23AF0001A05A /* ReactiveSwift.framework */; };
-		65D3DF061E5B23D50001A05A /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */; };
+		65D3DF061E5B23D50001A05A /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */; };
 		65D3DF0C1E5B24100001A05A /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA11E597250000471FA /* GithubEndpoint.swift */; };
 		65D3DF0D1E5B24100001A05A /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA31E597268000471FA /* Repository.swift */; };
 		65D3DF0F1E5B24100001A05A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F568CA1E59F3590022936D /* Alamofire.framework */; };
@@ -120,8 +120,8 @@
 		65D3DF251E5B25390001A05A /* ReactiveMoya.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65D3DF021E5B23AF0001A05A /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF261E5B25440001A05A /* ReactiveSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65D3DF031E5B23AF0001A05A /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65D3DF271E5B257F0001A05A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DF031E5B23AF0001A05A /* ReactiveSwift.framework */; };
-		65D3DF281E5B258E0001A05A /* ReactiveMoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DF001E5B23390001A05A /* ReactiveMoyaModelMapper.framework */; };
-		65D3DF371E5B25EE0001A05A /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9E21BEFFF6E002C0205 /* MoyaModelMapper.framework */; };
+		65D3DF281E5B258E0001A05A /* ReactiveMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DF001E5B23390001A05A /* ReactiveMoyaUnbox.framework */; };
+		65D3DF371E5B25EE0001A05A /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9E21BEFFF6E002C0205 /* MoyaUnbox.framework */; };
 		65D3DF391E5B25FA0001A05A /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3DF381E5B25FA0001A05A /* ReactiveSwift.framework */; };
 		65D3DF3A1E5B26F10001A05A /* SignalProducer+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F6B1E595CFF000471FA /* SignalProducer+ModelMapper.swift */; };
 		65F26F6E1E595CFF000471FA /* Response+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26F691E595CFF000471FA /* Response+ModelMapper.swift */; };
@@ -174,12 +174,12 @@
 		65F56A8A1E5A190A0022936D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F26FA31E597268000471FA /* Repository.swift */; };
 		65F56A8D1E5A190A0022936D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9B1E596F6A000471FA /* Nimble.framework */; };
 		65F56A8E1E5A190A0022936D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F26F9C1E596F6A000471FA /* Quick.framework */; };
-		65F56A9F1E5A19E20022936D /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */; };
+		65F56A9F1E5A19E20022936D /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */; };
 		65F56AA11E5A1A020022936D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F56AA01E5A1A020022936D /* RxSwift.framework */; };
 		65F56AA21E5A1A4D0022936D /* RxMoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F56A821E5A19030022936D /* RxMoyaModelMapperSpec.swift */; };
 		DD7502861C68FDDC006590AF /* MoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* MoyaModelMapperSpec.swift */; };
-		DD7502881C68FEDE006590AF /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */; };
-		DD7502921C690C7A006590AF /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */; };
+		DD7502881C68FEDE006590AF /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */; };
+		DD7502921C690C7A006590AF /* MoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */; };
 		DD75029A1C690CBE006590AF /* MoyaModelMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6D9971BEFF375002C0205 /* MoyaModelMapperSpec.swift */; };
 /* End PBXBuildFile section */
 
@@ -409,40 +409,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9861BEFF229002C0205 /* MoyaModelMapper-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaModelMapper-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9861BEFF229002C0205 /* MoyaUnbox-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaUnbox-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9971BEFF375002C0205 /* MoyaModelMapperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoyaModelMapperSpec.swift; path = Tests/MoyaModelMapperTests/MoyaModelMapperSpec.swift; sourceTree = "<group>"; };
-		52D6D9E21BEFFF6E002C0205 /* MoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		651AC8E71E5A8F14000F24CF /* ReactiveMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9E21BEFFF6E002C0205 /* MoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651AC8E71E5A8F14000F24CF /* ReactiveMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651AC8EA1E5A921C000F24CF /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
-		651AC9041E5A9700000F24CF /* ReactiveMoyaModelMapper-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaModelMapper-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651AC9041E5A9700000F24CF /* ReactiveMoyaUnbox-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaUnbox-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651AC90A1E5A98C9000F24CF /* ReactiveMoyaModelMapperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveMoyaModelMapperSpec.swift; path = Tests/ReactiveMoyaModelMapperTests/ReactiveMoyaModelMapperSpec.swift; sourceTree = "<group>"; };
 		651AC90C1E5A9A04000F24CF /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
 		6583C9F91E5A25B700DE8528 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		6583C9FA1E5A25B700DE8528 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
-		6583CA1E1E5A27F500DE8528 /* RxMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583CA1E1E5A27F500DE8528 /* RxMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6583CA201E5A2AF700DE8528 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		6583CA3A1E5A2C8700DE8528 /* RxMoyaModelMapper-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaModelMapper-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583CA3A1E5A2C8700DE8528 /* RxMoyaUnbox-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaUnbox-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6583CA411E5A2D8600DE8528 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
 		6583CA421E5A2D8600DE8528 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/Mac/RxMoya.framework; sourceTree = "<group>"; };
-		6583CA531E5A2FA000DE8528 /* RxMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6583CA6C1E5A304B00DE8528 /* RxMoyaModelMapper-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaModelMapper-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583CA531E5A2FA000DE8528 /* RxMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583CA6C1E5A304B00DE8528 /* RxMoyaUnbox-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaUnbox-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6583CA6F1E5A326D00DE8528 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		6583CA831E5A34A300DE8528 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/tvOS/RxBlocking.framework; sourceTree = "<group>"; };
 		6583CA841E5A34A300DE8528 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/tvOS/RxMoya.framework; sourceTree = "<group>"; };
-		6583CA9A1E5A364800DE8528 /* RxMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583CA9A1E5A364800DE8528 /* RxMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6583CA9D1E5A36DC00DE8528 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = "<group>"; };
-		65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D3DEE11E5B1F780001A05A /* ReactiveMoyaModelMapper-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaModelMapper-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3DEE11E5B1F780001A05A /* ReactiveMoyaUnbox-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaUnbox-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D3DEE71E5B21ED0001A05A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/Mac/ReactiveSwift.framework; sourceTree = "<group>"; };
 		65D3DEEE1E5B227C0001A05A /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/Mac/ReactiveMoya.framework; sourceTree = "<group>"; };
-		65D3DF001E5B23390001A05A /* ReactiveMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3DF001E5B23390001A05A /* ReactiveMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D3DF021E5B23AF0001A05A /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/tvOS/ReactiveMoya.framework; sourceTree = "<group>"; };
 		65D3DF031E5B23AF0001A05A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/tvOS/ReactiveSwift.framework; sourceTree = "<group>"; };
-		65D3DF1E1E5B24100001A05A /* ReactiveMoyaModelMapper-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaModelMapper-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D3DF351E5B25C10001A05A /* ReactiveMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3DF1E1E5B24100001A05A /* ReactiveMoyaUnbox-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveMoyaUnbox-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3DF351E5B25C10001A05A /* ReactiveMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D3DF381E5B25FA0001A05A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/watchOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		65F26F691E595CFF000471FA /* Response+ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ModelMapper.swift"; sourceTree = "<group>"; };
 		65F26F6B1E595CFF000471FA /* SignalProducer+ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+ModelMapper.swift"; sourceTree = "<group>"; };
@@ -470,14 +470,14 @@
 		65F568F31E5A011C0022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		65F5692A1E5A03E50022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		65F569341E5A04D10022936D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/tvOS/Result.framework; sourceTree = "<group>"; };
-		65F56A801E5A17800022936D /* RxMoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F56A801E5A17800022936D /* RxMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F56A821E5A19030022936D /* RxMoyaModelMapperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxMoyaModelMapperSpec.swift; path = Tests/RxMoyaModelMapperTests/RxMoyaModelMapperSpec.swift; sourceTree = "<group>"; };
-		65F56A9B1E5A190A0022936D /* RxMoyaModelMapper-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaModelMapper-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F56A9B1E5A190A0022936D /* RxMoyaUnbox-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxMoyaUnbox-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F56AA01E5A1A020022936D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		AD2FAA261CD0B6D800659CF4 /* MoyaModelMapper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoyaModelMapper.plist; sourceTree = "<group>"; };
-		AD2FAA281CD0B6E100659CF4 /* MoyaModelMapperTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoyaModelMapperTests.plist; sourceTree = "<group>"; };
-		DD75027A1C68FCFC006590AF /* MoyaModelMapper-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaModelMapper-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD75028D1C690C7A006590AF /* MoyaModelMapper-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaModelMapper-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2FAA261CD0B6D800659CF4 /* MoyaUnbox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoyaUnbox.plist; sourceTree = "<group>"; };
+		AD2FAA281CD0B6E100659CF4 /* MoyaUnboxTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoyaUnboxTests.plist; sourceTree = "<group>"; };
+		DD75027A1C68FCFC006590AF /* MoyaUnbox-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaUnbox-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75028D1C690C7A006590AF /* MoyaUnbox-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoyaUnbox-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -497,7 +497,7 @@
 				65F569051E5A02440022936D /* Alamofire.framework in Frameworks */,
 				65F26F9D1E596F6A000471FA /* Nimble.framework in Frameworks */,
 				65F26F9E1E596F6A000471FA /* Quick.framework in Frameworks */,
-				52D6D9871BEFF229002C0205 /* MoyaModelMapper.framework in Frameworks */,
+				52D6D9871BEFF229002C0205 /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +532,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651AC8E91E5A91F8000F24CF /* MoyaModelMapper.framework in Frameworks */,
+				651AC8E91E5A91F8000F24CF /* MoyaUnbox.framework in Frameworks */,
 				651AC8EB1E5A921C000F24CF /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,7 +545,7 @@
 				651AC8F61E5A9700000F24CF /* Nimble.framework in Frameworks */,
 				651AC8F71E5A9700000F24CF /* Quick.framework in Frameworks */,
 				651AC9081E5A982E000F24CF /* ReactiveSwift.framework in Frameworks */,
-				651AC9091E5A985A000F24CF /* ReactiveMoyaModelMapper.framework in Frameworks */,
+				651AC9091E5A985A000F24CF /* ReactiveMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +553,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6583CA221E5A2B1800DE8528 /* MoyaModelMapper.framework in Frameworks */,
+				6583CA221E5A2B1800DE8528 /* MoyaUnbox.framework in Frameworks */,
 				6583CA211E5A2AF700DE8528 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,7 +566,7 @@
 				6583CA2C1E5A2C8700DE8528 /* Nimble.framework in Frameworks */,
 				6583CA2D1E5A2C8700DE8528 /* Quick.framework in Frameworks */,
 				6583CA3F1E5A2D5600DE8528 /* RxSwift.framework in Frameworks */,
-				6583CA761E5A337C00DE8528 /* RxMoyaModelMapper.framework in Frameworks */,
+				6583CA761E5A337C00DE8528 /* RxMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6583CA701E5A326D00DE8528 /* RxSwift.framework in Frameworks */,
-				6583CA6E1E5A325D00DE8528 /* MoyaModelMapper.framework in Frameworks */,
+				6583CA6E1E5A325D00DE8528 /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +587,7 @@
 				6583CA5E1E5A304B00DE8528 /* Nimble.framework in Frameworks */,
 				6583CA5F1E5A304B00DE8528 /* Quick.framework in Frameworks */,
 				6583CA781E5A33D000DE8528 /* RxSwift.framework in Frameworks */,
-				6583CA771E5A33C300DE8528 /* RxMoyaModelMapper.framework in Frameworks */,
+				6583CA771E5A33C300DE8528 /* RxMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6583CA9E1E5A36DC00DE8528 /* RxSwift.framework in Frameworks */,
-				6583CA9C1E5A36C700DE8528 /* MoyaModelMapper.framework in Frameworks */,
+				6583CA9C1E5A36C700DE8528 /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +605,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D3DEE81E5B21ED0001A05A /* ReactiveSwift.framework in Frameworks */,
-				65D3DEE61E5B21CB0001A05A /* MoyaModelMapper.framework in Frameworks */,
+				65D3DEE61E5B21CB0001A05A /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +617,7 @@
 				65D3DED31E5B1F780001A05A /* Nimble.framework in Frameworks */,
 				65D3DED41E5B1F780001A05A /* Quick.framework in Frameworks */,
 				65D3DEEB1E5B22340001A05A /* ReactiveSwift.framework in Frameworks */,
-				65D3DEED1E5B22550001A05A /* ReactiveMoyaModelMapper.framework in Frameworks */,
+				65D3DEED1E5B22550001A05A /* ReactiveMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,7 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D3DF051E5B23AF0001A05A /* ReactiveSwift.framework in Frameworks */,
-				65D3DF061E5B23D50001A05A /* MoyaModelMapper.framework in Frameworks */,
+				65D3DF061E5B23D50001A05A /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,7 +638,7 @@
 				65D3DF101E5B24100001A05A /* Nimble.framework in Frameworks */,
 				65D3DF111E5B24100001A05A /* Quick.framework in Frameworks */,
 				65D3DF271E5B257F0001A05A /* ReactiveSwift.framework in Frameworks */,
-				65D3DF281E5B258E0001A05A /* ReactiveMoyaModelMapper.framework in Frameworks */,
+				65D3DF281E5B258E0001A05A /* ReactiveMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D3DF391E5B25FA0001A05A /* ReactiveSwift.framework in Frameworks */,
-				65D3DF371E5B25EE0001A05A /* MoyaModelMapper.framework in Frameworks */,
+				65D3DF371E5B25EE0001A05A /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +655,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F56A9F1E5A19E20022936D /* MoyaModelMapper.framework in Frameworks */,
+				65F56A9F1E5A19E20022936D /* MoyaUnbox.framework in Frameworks */,
 				65F56AA11E5A1A020022936D /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,7 +668,7 @@
 				65F56A8D1E5A190A0022936D /* Nimble.framework in Frameworks */,
 				65F56A8E1E5A190A0022936D /* Quick.framework in Frameworks */,
 				6583C9FF1E5A25EA00DE8528 /* RxSwift.framework in Frameworks */,
-				6583C9DA1E5A1D5000DE8528 /* RxMoyaModelMapper.framework in Frameworks */,
+				6583C9DA1E5A1D5000DE8528 /* RxMoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +679,7 @@
 				65F568C51E59F0700022936D /* Alamofire.framework in Frameworks */,
 				65F568C81E59F0700022936D /* Nimble.framework in Frameworks */,
 				65F568C91E59F0700022936D /* Quick.framework in Frameworks */,
-				DD7502881C68FEDE006590AF /* MoyaModelMapper.framework in Frameworks */,
+				DD7502881C68FEDE006590AF /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +690,7 @@
 				65F568DA1E59F9550022936D /* Alamofire.framework in Frameworks */,
 				65F568D61E59F3EF0022936D /* Nimble.framework in Frameworks */,
 				65F568D71E59F3EF0022936D /* Quick.framework in Frameworks */,
-				DD7502921C690C7A006590AF /* MoyaModelMapper.framework in Frameworks */,
+				DD7502921C690C7A006590AF /* MoyaUnbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,27 +711,27 @@
 		52D6D97D1BEFF229002C0205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */,
-				52D6D9861BEFF229002C0205 /* MoyaModelMapper-iOS Tests.xctest */,
-				52D6D9E21BEFFF6E002C0205 /* MoyaModelMapper.framework */,
-				52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */,
-				52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */,
-				DD75027A1C68FCFC006590AF /* MoyaModelMapper-macOS Tests.xctest */,
-				DD75028D1C690C7A006590AF /* MoyaModelMapper-tvOS Tests.xctest */,
-				65F56A801E5A17800022936D /* RxMoyaModelMapper.framework */,
-				65F56A9B1E5A190A0022936D /* RxMoyaModelMapper-iOS Tests.xctest */,
-				6583CA1E1E5A27F500DE8528 /* RxMoyaModelMapper.framework */,
-				6583CA3A1E5A2C8700DE8528 /* RxMoyaModelMapper-macOS Tests.xctest */,
-				6583CA531E5A2FA000DE8528 /* RxMoyaModelMapper.framework */,
-				6583CA6C1E5A304B00DE8528 /* RxMoyaModelMapper-tvOS Tests.xctest */,
-				6583CA9A1E5A364800DE8528 /* RxMoyaModelMapper.framework */,
-				651AC8E71E5A8F14000F24CF /* ReactiveMoyaModelMapper.framework */,
-				651AC9041E5A9700000F24CF /* ReactiveMoyaModelMapper-iOS Tests.xctest */,
-				65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaModelMapper.framework */,
-				65D3DEE11E5B1F780001A05A /* ReactiveMoyaModelMapper-macOS Tests.xctest */,
-				65D3DF001E5B23390001A05A /* ReactiveMoyaModelMapper.framework */,
-				65D3DF1E1E5B24100001A05A /* ReactiveMoyaModelMapper-tvOS Tests.xctest */,
-				65D3DF351E5B25C10001A05A /* ReactiveMoyaModelMapper.framework */,
+				52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */,
+				52D6D9861BEFF229002C0205 /* MoyaUnbox-iOS Tests.xctest */,
+				52D6D9E21BEFFF6E002C0205 /* MoyaUnbox.framework */,
+				52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */,
+				52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */,
+				DD75027A1C68FCFC006590AF /* MoyaUnbox-macOS Tests.xctest */,
+				DD75028D1C690C7A006590AF /* MoyaUnbox-tvOS Tests.xctest */,
+				65F56A801E5A17800022936D /* RxMoyaUnbox.framework */,
+				65F56A9B1E5A190A0022936D /* RxMoyaUnbox-iOS Tests.xctest */,
+				6583CA1E1E5A27F500DE8528 /* RxMoyaUnbox.framework */,
+				6583CA3A1E5A2C8700DE8528 /* RxMoyaUnbox-macOS Tests.xctest */,
+				6583CA531E5A2FA000DE8528 /* RxMoyaUnbox.framework */,
+				6583CA6C1E5A304B00DE8528 /* RxMoyaUnbox-tvOS Tests.xctest */,
+				6583CA9A1E5A364800DE8528 /* RxMoyaUnbox.framework */,
+				651AC8E71E5A8F14000F24CF /* ReactiveMoyaUnbox.framework */,
+				651AC9041E5A9700000F24CF /* ReactiveMoyaUnbox-iOS Tests.xctest */,
+				65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaUnbox.framework */,
+				65D3DEE11E5B1F780001A05A /* ReactiveMoyaUnbox-macOS Tests.xctest */,
+				65D3DF001E5B23390001A05A /* ReactiveMoyaUnbox.framework */,
+				65D3DF1E1E5B24100001A05A /* ReactiveMoyaUnbox-tvOS Tests.xctest */,
+				65D3DF351E5B25C10001A05A /* ReactiveMoyaUnbox.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -906,7 +906,7 @@
 		DD7502721C68FC1B006590AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD2FAA261CD0B6D800659CF4 /* MoyaModelMapper.plist */,
+				AD2FAA261CD0B6D800659CF4 /* MoyaUnbox.plist */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -914,7 +914,7 @@
 		DD7502731C68FC20006590AF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AD2FAA281CD0B6E100659CF4 /* MoyaModelMapperTests.plist */,
+				AD2FAA281CD0B6E100659CF4 /* MoyaUnboxTests.plist */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -1009,9 +1009,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52D6D97B1BEFF229002C0205 /* MoyaModelMapper-iOS */ = {
+		52D6D97B1BEFF229002C0205 /* MoyaUnbox-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-iOS" */;
+			buildConfigurationList = 52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-iOS" */;
 			buildPhases = (
 				52D6D9771BEFF229002C0205 /* Sources */,
 				52D6D9781BEFF229002C0205 /* Frameworks */,
@@ -1022,14 +1022,14 @@
 			);
 			dependencies = (
 			);
-			name = "MoyaModelMapper-iOS";
+			name = "MoyaUnbox-iOS";
 			productName = MoyaModelMapper;
-			productReference = 52D6D97C1BEFF229002C0205 /* MoyaModelMapper.framework */;
+			productReference = 52D6D97C1BEFF229002C0205 /* MoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52D6D9851BEFF229002C0205 /* MoyaModelMapper-iOS Tests */ = {
+		52D6D9851BEFF229002C0205 /* MoyaUnbox-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-iOS Tests" */;
+			buildConfigurationList = 52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-iOS Tests" */;
 			buildPhases = (
 				52D6D9821BEFF229002C0205 /* Sources */,
 				52D6D9831BEFF229002C0205 /* Frameworks */,
@@ -1041,14 +1041,14 @@
 			dependencies = (
 				52D6D9891BEFF229002C0205 /* PBXTargetDependency */,
 			);
-			name = "MoyaModelMapper-iOS Tests";
+			name = "MoyaUnbox-iOS Tests";
 			productName = MoyaModelMapperTests;
-			productReference = 52D6D9861BEFF229002C0205 /* MoyaModelMapper-iOS Tests.xctest */;
+			productReference = 52D6D9861BEFF229002C0205 /* MoyaUnbox-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52D6D9E11BEFFF6E002C0205 /* MoyaModelMapper-watchOS */ = {
+		52D6D9E11BEFFF6E002C0205 /* MoyaUnbox-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-watchOS" */;
+			buildConfigurationList = 52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-watchOS" */;
 			buildPhases = (
 				52D6D9DD1BEFFF6E002C0205 /* Sources */,
 				52D6D9DE1BEFFF6E002C0205 /* Frameworks */,
@@ -1059,14 +1059,14 @@
 			);
 			dependencies = (
 			);
-			name = "MoyaModelMapper-watchOS";
+			name = "MoyaUnbox-watchOS";
 			productName = "MoyaModelMapper-watchOS";
-			productReference = 52D6D9E21BEFFF6E002C0205 /* MoyaModelMapper.framework */;
+			productReference = 52D6D9E21BEFFF6E002C0205 /* MoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52D6D9EF1BEFFFBE002C0205 /* MoyaModelMapper-tvOS */ = {
+		52D6D9EF1BEFFFBE002C0205 /* MoyaUnbox-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-tvOS" */;
+			buildConfigurationList = 52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-tvOS" */;
 			buildPhases = (
 				52D6D9EB1BEFFFBE002C0205 /* Sources */,
 				52D6D9EC1BEFFFBE002C0205 /* Frameworks */,
@@ -1077,14 +1077,14 @@
 			);
 			dependencies = (
 			);
-			name = "MoyaModelMapper-tvOS";
+			name = "MoyaUnbox-tvOS";
 			productName = "MoyaModelMapper-tvOS";
-			productReference = 52D6D9F01BEFFFBE002C0205 /* MoyaModelMapper.framework */;
+			productReference = 52D6D9F01BEFFFBE002C0205 /* MoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52D6DA0E1BF000BD002C0205 /* MoyaModelMapper-macOS */ = {
+		52D6DA0E1BF000BD002C0205 /* MoyaUnbox-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-macOS" */;
+			buildConfigurationList = 52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-macOS" */;
 			buildPhases = (
 				52D6DA0A1BF000BD002C0205 /* Sources */,
 				52D6DA0B1BF000BD002C0205 /* Frameworks */,
@@ -1095,14 +1095,14 @@
 			);
 			dependencies = (
 			);
-			name = "MoyaModelMapper-macOS";
+			name = "MoyaUnbox-macOS";
 			productName = "MoyaModelMapper-macOS";
-			productReference = 52D6DA0F1BF000BD002C0205 /* MoyaModelMapper.framework */;
+			productReference = 52D6DA0F1BF000BD002C0205 /* MoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		651AC8DC1E5A8F14000F24CF /* ReactiveMoyaModelMapper-iOS */ = {
+		651AC8DC1E5A8F14000F24CF /* ReactiveMoyaUnbox-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651AC8E41E5A8F14000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-iOS" */;
+			buildConfigurationList = 651AC8E41E5A8F14000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-iOS" */;
 			buildPhases = (
 				651AC8DD1E5A8F14000F24CF /* Sources */,
 				651AC8DF1E5A8F14000F24CF /* Frameworks */,
@@ -1113,14 +1113,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveMoyaModelMapper-iOS";
+			name = "ReactiveMoyaUnbox-iOS";
 			productName = MoyaModelMapper;
-			productReference = 651AC8E71E5A8F14000F24CF /* ReactiveMoyaModelMapper.framework */;
+			productReference = 651AC8E71E5A8F14000F24CF /* ReactiveMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		651AC8ED1E5A9700000F24CF /* ReactiveMoyaModelMapper-iOS Tests */ = {
+		651AC8ED1E5A9700000F24CF /* ReactiveMoyaUnbox-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651AC9011E5A9700000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-iOS Tests" */;
+			buildConfigurationList = 651AC9011E5A9700000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-iOS Tests" */;
 			buildPhases = (
 				651AC8F01E5A9700000F24CF /* Sources */,
 				651AC8F41E5A9700000F24CF /* Frameworks */,
@@ -1132,14 +1132,14 @@
 			dependencies = (
 				651AC9071E5A9780000F24CF /* PBXTargetDependency */,
 			);
-			name = "ReactiveMoyaModelMapper-iOS Tests";
+			name = "ReactiveMoyaUnbox-iOS Tests";
 			productName = MoyaModelMapperTests;
-			productReference = 651AC9041E5A9700000F24CF /* ReactiveMoyaModelMapper-iOS Tests.xctest */;
+			productReference = 651AC9041E5A9700000F24CF /* ReactiveMoyaUnbox-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6583CA131E5A27F500DE8528 /* RxMoyaModelMapper-macOS */ = {
+		6583CA131E5A27F500DE8528 /* RxMoyaUnbox-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6583CA1B1E5A27F500DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-macOS" */;
+			buildConfigurationList = 6583CA1B1E5A27F500DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-macOS" */;
 			buildPhases = (
 				6583CA141E5A27F500DE8528 /* Sources */,
 				6583CA161E5A27F500DE8528 /* Frameworks */,
@@ -1150,14 +1150,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMoyaModelMapper-macOS";
+			name = "RxMoyaUnbox-macOS";
 			productName = "MoyaModelMapper-macOS";
-			productReference = 6583CA1E1E5A27F500DE8528 /* RxMoyaModelMapper.framework */;
+			productReference = 6583CA1E1E5A27F500DE8528 /* RxMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6583CA231E5A2C8700DE8528 /* RxMoyaModelMapper-macOS Tests */ = {
+		6583CA231E5A2C8700DE8528 /* RxMoyaUnbox-macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6583CA371E5A2C8700DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-macOS Tests" */;
+			buildConfigurationList = 6583CA371E5A2C8700DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-macOS Tests" */;
 			buildPhases = (
 				6583CA261E5A2C8700DE8528 /* Sources */,
 				6583CA2A1E5A2C8700DE8528 /* Frameworks */,
@@ -1169,14 +1169,14 @@
 			dependencies = (
 				6583CA3D1E5A2D0E00DE8528 /* PBXTargetDependency */,
 			);
-			name = "RxMoyaModelMapper-macOS Tests";
+			name = "RxMoyaUnbox-macOS Tests";
 			productName = "MoyaModelMapper-OS Tests";
-			productReference = 6583CA3A1E5A2C8700DE8528 /* RxMoyaModelMapper-macOS Tests.xctest */;
+			productReference = 6583CA3A1E5A2C8700DE8528 /* RxMoyaUnbox-macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6583CA461E5A2FA000DE8528 /* RxMoyaModelMapper-tvOS */ = {
+		6583CA461E5A2FA000DE8528 /* RxMoyaUnbox-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6583CA501E5A2FA000DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-tvOS" */;
+			buildConfigurationList = 6583CA501E5A2FA000DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-tvOS" */;
 			buildPhases = (
 				6583CA471E5A2FA000DE8528 /* Sources */,
 				6583CA491E5A2FA000DE8528 /* Frameworks */,
@@ -1187,14 +1187,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMoyaModelMapper-tvOS";
+			name = "RxMoyaUnbox-tvOS";
 			productName = "MoyaModelMapper-tvOS";
-			productReference = 6583CA531E5A2FA000DE8528 /* RxMoyaModelMapper.framework */;
+			productReference = 6583CA531E5A2FA000DE8528 /* RxMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6583CA551E5A304B00DE8528 /* RxMoyaModelMapper-tvOS Tests */ = {
+		6583CA551E5A304B00DE8528 /* RxMoyaUnbox-tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6583CA691E5A304B00DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-tvOS Tests" */;
+			buildConfigurationList = 6583CA691E5A304B00DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-tvOS Tests" */;
 			buildPhases = (
 				6583CA581E5A304B00DE8528 /* Sources */,
 				6583CA5C1E5A304B00DE8528 /* Frameworks */,
@@ -1206,14 +1206,14 @@
 			dependencies = (
 				6583CA751E5A330E00DE8528 /* PBXTargetDependency */,
 			);
-			name = "RxMoyaModelMapper-tvOS Tests";
+			name = "RxMoyaUnbox-tvOS Tests";
 			productName = "MoyaModelMapper-tvOS Tests";
-			productReference = 6583CA6C1E5A304B00DE8528 /* RxMoyaModelMapper-tvOS Tests.xctest */;
+			productReference = 6583CA6C1E5A304B00DE8528 /* RxMoyaUnbox-tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6583CA8E1E5A364800DE8528 /* RxMoyaModelMapper-watchOS */ = {
+		6583CA8E1E5A364800DE8528 /* RxMoyaUnbox-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6583CA971E5A364800DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-watchOS" */;
+			buildConfigurationList = 6583CA971E5A364800DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-watchOS" */;
 			buildPhases = (
 				6583CA8F1E5A364800DE8528 /* Sources */,
 				6583CA911E5A364800DE8528 /* Frameworks */,
@@ -1224,14 +1224,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMoyaModelMapper-watchOS";
+			name = "RxMoyaUnbox-watchOS";
 			productName = "MoyaModelMapper-watchOS";
-			productReference = 6583CA9A1E5A364800DE8528 /* RxMoyaModelMapper.framework */;
+			productReference = 6583CA9A1E5A364800DE8528 /* RxMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaModelMapper-macOS */ = {
+		65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaUnbox-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D3DEC51E5B1EBB0001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-macOS" */;
+			buildConfigurationList = 65D3DEC51E5B1EBB0001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-macOS" */;
 			buildPhases = (
 				65D3DEBE1E5B1EBB0001A05A /* Sources */,
 				65D3DEC01E5B1EBB0001A05A /* Frameworks */,
@@ -1242,14 +1242,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveMoyaModelMapper-macOS";
+			name = "ReactiveMoyaUnbox-macOS";
 			productName = "MoyaModelMapper-macOS";
-			productReference = 65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaModelMapper.framework */;
+			productReference = 65D3DEC81E5B1EBB0001A05A /* ReactiveMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65D3DECA1E5B1F780001A05A /* ReactiveMoyaModelMapper-macOS Tests */ = {
+		65D3DECA1E5B1F780001A05A /* ReactiveMoyaUnbox-macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D3DEDE1E5B1F780001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-macOS Tests" */;
+			buildConfigurationList = 65D3DEDE1E5B1F780001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-macOS Tests" */;
 			buildPhases = (
 				65D3DECD1E5B1F780001A05A /* Sources */,
 				65D3DED11E5B1F780001A05A /* Frameworks */,
@@ -1261,14 +1261,14 @@
 			dependencies = (
 				65D3DEEA1E5B22220001A05A /* PBXTargetDependency */,
 			);
-			name = "ReactiveMoyaModelMapper-macOS Tests";
+			name = "ReactiveMoyaUnbox-macOS Tests";
 			productName = "MoyaModelMapper-OS Tests";
-			productReference = 65D3DEE11E5B1F780001A05A /* ReactiveMoyaModelMapper-macOS Tests.xctest */;
+			productReference = 65D3DEE11E5B1F780001A05A /* ReactiveMoyaUnbox-macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D3DEF31E5B23390001A05A /* ReactiveMoyaModelMapper-tvOS */ = {
+		65D3DEF31E5B23390001A05A /* ReactiveMoyaUnbox-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D3DEFD1E5B23390001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-tvOS" */;
+			buildConfigurationList = 65D3DEFD1E5B23390001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-tvOS" */;
 			buildPhases = (
 				65D3DEF41E5B23390001A05A /* Sources */,
 				65D3DEF61E5B23390001A05A /* Frameworks */,
@@ -1279,14 +1279,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveMoyaModelMapper-tvOS";
+			name = "ReactiveMoyaUnbox-tvOS";
 			productName = "MoyaModelMapper-tvOS";
-			productReference = 65D3DF001E5B23390001A05A /* ReactiveMoyaModelMapper.framework */;
+			productReference = 65D3DF001E5B23390001A05A /* ReactiveMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65D3DF071E5B24100001A05A /* ReactiveMoyaModelMapper-tvOS Tests */ = {
+		65D3DF071E5B24100001A05A /* ReactiveMoyaUnbox-tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D3DF1B1E5B24100001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-tvOS Tests" */;
+			buildConfigurationList = 65D3DF1B1E5B24100001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-tvOS Tests" */;
 			buildPhases = (
 				65D3DF0A1E5B24100001A05A /* Sources */,
 				65D3DF0E1E5B24100001A05A /* Frameworks */,
@@ -1298,14 +1298,14 @@
 			dependencies = (
 				65D3DF211E5B24720001A05A /* PBXTargetDependency */,
 			);
-			name = "ReactiveMoyaModelMapper-tvOS Tests";
+			name = "ReactiveMoyaUnbox-tvOS Tests";
 			productName = "MoyaModelMapper-tvOS Tests";
-			productReference = 65D3DF1E1E5B24100001A05A /* ReactiveMoyaModelMapper-tvOS Tests.xctest */;
+			productReference = 65D3DF1E1E5B24100001A05A /* ReactiveMoyaUnbox-tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D3DF291E5B25C10001A05A /* ReactiveMoyaModelMapper-watchOS */ = {
+		65D3DF291E5B25C10001A05A /* ReactiveMoyaUnbox-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D3DF321E5B25C10001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-watchOS" */;
+			buildConfigurationList = 65D3DF321E5B25C10001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-watchOS" */;
 			buildPhases = (
 				65D3DF2A1E5B25C10001A05A /* Sources */,
 				65D3DF2C1E5B25C10001A05A /* Frameworks */,
@@ -1316,14 +1316,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactiveMoyaModelMapper-watchOS";
+			name = "ReactiveMoyaUnbox-watchOS";
 			productName = "MoyaModelMapper-watchOS";
-			productReference = 65D3DF351E5B25C10001A05A /* ReactiveMoyaModelMapper.framework */;
+			productReference = 65D3DF351E5B25C10001A05A /* ReactiveMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65F56A721E5A17800022936D /* RxMoyaModelMapper-iOS */ = {
+		65F56A721E5A17800022936D /* RxMoyaUnbox-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65F56A7D1E5A17800022936D /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-iOS" */;
+			buildConfigurationList = 65F56A7D1E5A17800022936D /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-iOS" */;
 			buildPhases = (
 				65F56A731E5A17800022936D /* Sources */,
 				65F56A771E5A17800022936D /* Frameworks */,
@@ -1334,14 +1334,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxMoyaModelMapper-iOS";
+			name = "RxMoyaUnbox-iOS";
 			productName = MoyaModelMapper;
-			productReference = 65F56A801E5A17800022936D /* RxMoyaModelMapper.framework */;
+			productReference = 65F56A801E5A17800022936D /* RxMoyaUnbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65F56A841E5A190A0022936D /* RxMoyaModelMapper-iOS Tests */ = {
+		65F56A841E5A190A0022936D /* RxMoyaUnbox-iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65F56A981E5A190A0022936D /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-iOS Tests" */;
+			buildConfigurationList = 65F56A981E5A190A0022936D /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-iOS Tests" */;
 			buildPhases = (
 				65F56A871E5A190A0022936D /* Sources */,
 				65F56A8B1E5A190A0022936D /* Frameworks */,
@@ -1353,14 +1353,14 @@
 			dependencies = (
 				65F56A9E1E5A19AE0022936D /* PBXTargetDependency */,
 			);
-			name = "RxMoyaModelMapper-iOS Tests";
+			name = "RxMoyaUnbox-iOS Tests";
 			productName = MoyaModelMapperTests;
-			productReference = 65F56A9B1E5A190A0022936D /* RxMoyaModelMapper-iOS Tests.xctest */;
+			productReference = 65F56A9B1E5A190A0022936D /* RxMoyaUnbox-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD7502791C68FCFC006590AF /* MoyaModelMapper-macOS Tests */ = {
+		DD7502791C68FCFC006590AF /* MoyaUnbox-macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "MoyaModelMapper-macOS Tests" */;
+			buildConfigurationList = DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "MoyaUnbox-macOS Tests" */;
 			buildPhases = (
 				DD7502761C68FCFC006590AF /* Sources */,
 				DD7502771C68FCFC006590AF /* Frameworks */,
@@ -1372,14 +1372,14 @@
 			dependencies = (
 				DD7502811C68FCFC006590AF /* PBXTargetDependency */,
 			);
-			name = "MoyaModelMapper-macOS Tests";
+			name = "MoyaUnbox-macOS Tests";
 			productName = "MoyaModelMapper-OS Tests";
-			productReference = DD75027A1C68FCFC006590AF /* MoyaModelMapper-macOS Tests.xctest */;
+			productReference = DD75027A1C68FCFC006590AF /* MoyaUnbox-macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD75028C1C690C7A006590AF /* MoyaModelMapper-tvOS Tests */ = {
+		DD75028C1C690C7A006590AF /* MoyaUnbox-tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "MoyaModelMapper-tvOS Tests" */;
+			buildConfigurationList = DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "MoyaUnbox-tvOS Tests" */;
 			buildPhases = (
 				DD7502891C690C7A006590AF /* Sources */,
 				DD75028A1C690C7A006590AF /* Frameworks */,
@@ -1391,9 +1391,9 @@
 			dependencies = (
 				DD7502941C690C7A006590AF /* PBXTargetDependency */,
 			);
-			name = "MoyaModelMapper-tvOS Tests";
+			name = "MoyaUnbox-tvOS Tests";
 			productName = "MoyaModelMapper-tvOS Tests";
-			productReference = DD75028D1C690C7A006590AF /* MoyaModelMapper-tvOS Tests.xctest */;
+			productReference = DD75028D1C690C7A006590AF /* MoyaUnbox-tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1436,7 +1436,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "MoyaModelMapper" */;
+			buildConfigurationList = 52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "MoyaUnbox" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1448,27 +1448,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52D6D97B1BEFF229002C0205 /* MoyaModelMapper-iOS */,
-				52D6DA0E1BF000BD002C0205 /* MoyaModelMapper-macOS */,
-				52D6D9EF1BEFFFBE002C0205 /* MoyaModelMapper-tvOS */,
-				52D6D9E11BEFFF6E002C0205 /* MoyaModelMapper-watchOS */,
-				651AC8DC1E5A8F14000F24CF /* ReactiveMoyaModelMapper-iOS */,
-				65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaModelMapper-macOS */,
-				65D3DEF31E5B23390001A05A /* ReactiveMoyaModelMapper-tvOS */,
-				65D3DF291E5B25C10001A05A /* ReactiveMoyaModelMapper-watchOS */,
-				65F56A721E5A17800022936D /* RxMoyaModelMapper-iOS */,
-				6583CA131E5A27F500DE8528 /* RxMoyaModelMapper-macOS */,
-				6583CA461E5A2FA000DE8528 /* RxMoyaModelMapper-tvOS */,
-				6583CA8E1E5A364800DE8528 /* RxMoyaModelMapper-watchOS */,
-				52D6D9851BEFF229002C0205 /* MoyaModelMapper-iOS Tests */,
-				DD7502791C68FCFC006590AF /* MoyaModelMapper-macOS Tests */,
-				DD75028C1C690C7A006590AF /* MoyaModelMapper-tvOS Tests */,
-				651AC8ED1E5A9700000F24CF /* ReactiveMoyaModelMapper-iOS Tests */,
-				65D3DECA1E5B1F780001A05A /* ReactiveMoyaModelMapper-macOS Tests */,
-				65D3DF071E5B24100001A05A /* ReactiveMoyaModelMapper-tvOS Tests */,
-				65F56A841E5A190A0022936D /* RxMoyaModelMapper-iOS Tests */,
-				6583CA231E5A2C8700DE8528 /* RxMoyaModelMapper-macOS Tests */,
-				6583CA551E5A304B00DE8528 /* RxMoyaModelMapper-tvOS Tests */,
+				52D6D97B1BEFF229002C0205 /* MoyaUnbox-iOS */,
+				52D6DA0E1BF000BD002C0205 /* MoyaUnbox-macOS */,
+				52D6D9EF1BEFFFBE002C0205 /* MoyaUnbox-tvOS */,
+				52D6D9E11BEFFF6E002C0205 /* MoyaUnbox-watchOS */,
+				651AC8DC1E5A8F14000F24CF /* ReactiveMoyaUnbox-iOS */,
+				65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaUnbox-macOS */,
+				65D3DEF31E5B23390001A05A /* ReactiveMoyaUnbox-tvOS */,
+				65D3DF291E5B25C10001A05A /* ReactiveMoyaUnbox-watchOS */,
+				65F56A721E5A17800022936D /* RxMoyaUnbox-iOS */,
+				6583CA131E5A27F500DE8528 /* RxMoyaUnbox-macOS */,
+				6583CA461E5A2FA000DE8528 /* RxMoyaUnbox-tvOS */,
+				6583CA8E1E5A364800DE8528 /* RxMoyaUnbox-watchOS */,
+				52D6D9851BEFF229002C0205 /* MoyaUnbox-iOS Tests */,
+				DD7502791C68FCFC006590AF /* MoyaUnbox-macOS Tests */,
+				DD75028C1C690C7A006590AF /* MoyaUnbox-tvOS Tests */,
+				651AC8ED1E5A9700000F24CF /* ReactiveMoyaUnbox-iOS Tests */,
+				65D3DECA1E5B1F780001A05A /* ReactiveMoyaUnbox-macOS Tests */,
+				65D3DF071E5B24100001A05A /* ReactiveMoyaUnbox-tvOS Tests */,
+				65F56A841E5A190A0022936D /* RxMoyaUnbox-iOS Tests */,
+				6583CA231E5A2C8700DE8528 /* RxMoyaUnbox-macOS Tests */,
+				6583CA551E5A304B00DE8528 /* RxMoyaUnbox-tvOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1815,47 +1815,47 @@
 /* Begin PBXTargetDependency section */
 		52D6D9891BEFF229002C0205 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52D6D97B1BEFF229002C0205 /* MoyaModelMapper-iOS */;
+			target = 52D6D97B1BEFF229002C0205 /* MoyaUnbox-iOS */;
 			targetProxy = 52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */;
 		};
 		651AC9071E5A9780000F24CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 651AC8DC1E5A8F14000F24CF /* ReactiveMoyaModelMapper-iOS */;
+			target = 651AC8DC1E5A8F14000F24CF /* ReactiveMoyaUnbox-iOS */;
 			targetProxy = 651AC9061E5A9780000F24CF /* PBXContainerItemProxy */;
 		};
 		6583CA3D1E5A2D0E00DE8528 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6583CA131E5A27F500DE8528 /* RxMoyaModelMapper-macOS */;
+			target = 6583CA131E5A27F500DE8528 /* RxMoyaUnbox-macOS */;
 			targetProxy = 6583CA3C1E5A2D0E00DE8528 /* PBXContainerItemProxy */;
 		};
 		6583CA751E5A330E00DE8528 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6583CA461E5A2FA000DE8528 /* RxMoyaModelMapper-tvOS */;
+			target = 6583CA461E5A2FA000DE8528 /* RxMoyaUnbox-tvOS */;
 			targetProxy = 6583CA741E5A330E00DE8528 /* PBXContainerItemProxy */;
 		};
 		65D3DEEA1E5B22220001A05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaModelMapper-macOS */;
+			target = 65D3DEBD1E5B1EBB0001A05A /* ReactiveMoyaUnbox-macOS */;
 			targetProxy = 65D3DEE91E5B22220001A05A /* PBXContainerItemProxy */;
 		};
 		65D3DF211E5B24720001A05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D3DEF31E5B23390001A05A /* ReactiveMoyaModelMapper-tvOS */;
+			target = 65D3DEF31E5B23390001A05A /* ReactiveMoyaUnbox-tvOS */;
 			targetProxy = 65D3DF201E5B24720001A05A /* PBXContainerItemProxy */;
 		};
 		65F56A9E1E5A19AE0022936D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65F56A721E5A17800022936D /* RxMoyaModelMapper-iOS */;
+			target = 65F56A721E5A17800022936D /* RxMoyaUnbox-iOS */;
 			targetProxy = 65F56A9D1E5A19AE0022936D /* PBXContainerItemProxy */;
 		};
 		DD7502811C68FCFC006590AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52D6DA0E1BF000BD002C0205 /* MoyaModelMapper-macOS */;
+			target = 52D6DA0E1BF000BD002C0205 /* MoyaUnbox-macOS */;
 			targetProxy = DD7502801C68FCFC006590AF /* PBXContainerItemProxy */;
 		};
 		DD7502941C690C7A006590AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52D6D9EF1BEFFFBE002C0205 /* MoyaModelMapper-tvOS */;
+			target = 52D6D9EF1BEFFFBE002C0205 /* MoyaUnbox-tvOS */;
 			targetProxy = DD7502931C690C7A006590AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1970,13 +1970,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-iOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1997,12 +1997,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-iOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -2017,7 +2017,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2034,7 +2034,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2056,11 +2056,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-watchOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2082,11 +2082,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-watchOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2109,11 +2109,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-tvOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2135,11 +2135,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-tvOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2164,12 +2164,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2191,12 +2191,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS";
-				PRODUCT_NAME = MoyaModelMapper;
+				PRODUCT_NAME = MoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2218,13 +2218,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-iOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -2245,12 +2245,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-iOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -2265,7 +2265,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2282,7 +2282,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2306,12 +2306,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-macOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2333,12 +2333,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-macOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2355,7 +2355,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS-Tests";
@@ -2374,7 +2374,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS-Tests";
@@ -2398,11 +2398,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-tvOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2424,11 +2424,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-tvOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2446,7 +2446,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2464,7 +2464,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2488,11 +2488,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-watchOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2514,11 +2514,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-watchOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2543,12 +2543,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-macOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2570,12 +2570,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-macOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2592,7 +2592,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-macOS-Tests";
@@ -2611,7 +2611,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-macOS-Tests";
@@ -2635,11 +2635,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-tvOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2661,11 +2661,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-tvOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2683,7 +2683,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2701,7 +2701,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2725,11 +2725,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-watchOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2751,11 +2751,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.ReactiveMoyaModelMapper-watchOS";
-				PRODUCT_NAME = ReactiveMoyaModelMapper;
+				PRODUCT_NAME = ReactiveMoyaUnbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2779,13 +2779,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-iOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -2806,12 +2806,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapper.plist;
+				INFOPLIST_FILE = Configs/MoyaUnbox.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.RxMoyaModelMapper-iOS";
-				PRODUCT_NAME = RxMoyaModelMapper;
+				PRODUCT_NAME = RxMoyaUnbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -2826,7 +2826,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomorr.RxMoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2843,7 +2843,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomorr.RxMoyaModelMapper-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2861,7 +2861,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS-Tests";
@@ -2880,7 +2880,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-macOS-Tests";
@@ -2898,7 +2898,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2915,7 +2915,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
-				INFOPLIST_FILE = Configs/MoyaModelMapperTests.plist;
+				INFOPLIST_FILE = Configs/MoyaUnboxTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gperdomor.MoyaModelMapper-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2929,7 +2929,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "MoyaModelMapper" */ = {
+		52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "MoyaUnbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6D98E1BEFF229002C0205 /* Debug */,
@@ -2938,7 +2938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-iOS" */ = {
+		52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6D9911BEFF229002C0205 /* Debug */,
@@ -2947,7 +2947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-iOS Tests" */ = {
+		52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6D9941BEFF229002C0205 /* Debug */,
@@ -2956,7 +2956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-watchOS" */ = {
+		52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6D9E81BEFFF6E002C0205 /* Debug */,
@@ -2965,7 +2965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-tvOS" */ = {
+		52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6DA021BEFFFBE002C0205 /* Debug */,
@@ -2974,7 +2974,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "MoyaModelMapper-macOS" */ = {
+		52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "MoyaUnbox-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52D6DA211BF000BD002C0205 /* Debug */,
@@ -2983,7 +2983,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		651AC8E41E5A8F14000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-iOS" */ = {
+		651AC8E41E5A8F14000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				651AC8E51E5A8F14000F24CF /* Debug */,
@@ -2992,7 +2992,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		651AC9011E5A9700000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-iOS Tests" */ = {
+		651AC9011E5A9700000F24CF /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				651AC9021E5A9700000F24CF /* Debug */,
@@ -3001,7 +3001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6583CA1B1E5A27F500DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-macOS" */ = {
+		6583CA1B1E5A27F500DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6583CA1C1E5A27F500DE8528 /* Debug */,
@@ -3010,7 +3010,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6583CA371E5A2C8700DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-macOS Tests" */ = {
+		6583CA371E5A2C8700DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6583CA381E5A2C8700DE8528 /* Debug */,
@@ -3019,7 +3019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6583CA501E5A2FA000DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-tvOS" */ = {
+		6583CA501E5A2FA000DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6583CA511E5A2FA000DE8528 /* Debug */,
@@ -3028,7 +3028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6583CA691E5A304B00DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-tvOS Tests" */ = {
+		6583CA691E5A304B00DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6583CA6A1E5A304B00DE8528 /* Debug */,
@@ -3037,7 +3037,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6583CA971E5A364800DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-watchOS" */ = {
+		6583CA971E5A364800DE8528 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6583CA981E5A364800DE8528 /* Debug */,
@@ -3046,7 +3046,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D3DEC51E5B1EBB0001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-macOS" */ = {
+		65D3DEC51E5B1EBB0001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D3DEC61E5B1EBB0001A05A /* Debug */,
@@ -3055,7 +3055,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D3DEDE1E5B1F780001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-macOS Tests" */ = {
+		65D3DEDE1E5B1F780001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D3DEDF1E5B1F780001A05A /* Debug */,
@@ -3064,7 +3064,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D3DEFD1E5B23390001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-tvOS" */ = {
+		65D3DEFD1E5B23390001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D3DEFE1E5B23390001A05A /* Debug */,
@@ -3073,7 +3073,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D3DF1B1E5B24100001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-tvOS Tests" */ = {
+		65D3DF1B1E5B24100001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D3DF1C1E5B24100001A05A /* Debug */,
@@ -3082,7 +3082,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D3DF321E5B25C10001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaModelMapper-watchOS" */ = {
+		65D3DF321E5B25C10001A05A /* Build configuration list for PBXNativeTarget "ReactiveMoyaUnbox-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65D3DF331E5B25C10001A05A /* Debug */,
@@ -3091,7 +3091,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65F56A7D1E5A17800022936D /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-iOS" */ = {
+		65F56A7D1E5A17800022936D /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65F56A7E1E5A17800022936D /* Debug */,
@@ -3100,7 +3100,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65F56A981E5A190A0022936D /* Build configuration list for PBXNativeTarget "RxMoyaModelMapper-iOS Tests" */ = {
+		65F56A981E5A190A0022936D /* Build configuration list for PBXNativeTarget "RxMoyaUnbox-iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65F56A991E5A190A0022936D /* Debug */,
@@ -3109,7 +3109,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "MoyaModelMapper-macOS Tests" */ = {
+		DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "MoyaUnbox-macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7502831C68FCFC006590AF /* Debug */,
@@ -3118,7 +3118,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "MoyaModelMapper-tvOS Tests" */ = {
+		DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "MoyaUnbox-tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7502961C690C7A006590AF /* Debug */,

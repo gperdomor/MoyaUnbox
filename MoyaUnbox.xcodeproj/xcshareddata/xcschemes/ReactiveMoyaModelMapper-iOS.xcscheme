@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
                BuildableName = "ReactiveMoyaModelMapper.framework"
-               BlueprintName = "ReactiveMoyaModelMapper-iOS"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BlueprintName = "ReactiveMoyaUnbox-iOS"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "651AC8ED1E5A9700000F24CF"
-               BuildableName = "ReactiveMoyaModelMapper-iOS Tests.xctest"
-               BlueprintName = "ReactiveMoyaModelMapper-iOS Tests"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BuildableName = "ReactiveMoyaUnbox-iOS Tests.xctest"
+               BlueprintName = "ReactiveMoyaUnbox-iOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "651AC8ED1E5A9700000F24CF"
-               BuildableName = "ReactiveMoyaModelMapper-iOS Tests.xctest"
-               BlueprintName = "ReactiveMoyaModelMapper-iOS Tests"
-               ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+               BuildableName = "ReactiveMoyaUnbox-iOS Tests.xctest"
+               BlueprintName = "ReactiveMoyaUnbox-iOS Tests"
+               ReferencedContainer = "container:MoyaUnbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,8 +59,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
             BuildableName = "ReactiveMoyaModelMapper.framework"
-            BlueprintName = "ReactiveMoyaModelMapper-iOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintName = "ReactiveMoyaUnbox-iOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
             BuildableName = "ReactiveMoyaModelMapper.framework"
-            BlueprintName = "ReactiveMoyaModelMapper-iOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintName = "ReactiveMoyaUnbox-iOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -99,8 +99,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "651AC8DC1E5A8F14000F24CF"
             BuildableName = "ReactiveMoyaModelMapper.framework"
-            BlueprintName = "ReactiveMoyaModelMapper-iOS"
-            ReferencedContainer = "container:MoyaModelMapper.xcodeproj">
+            BlueprintName = "ReactiveMoyaUnbox-iOS"
+            ReferencedContainer = "container:MoyaUnbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
