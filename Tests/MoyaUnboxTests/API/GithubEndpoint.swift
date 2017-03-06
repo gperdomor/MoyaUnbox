@@ -1,6 +1,6 @@
 //
-//  GitHubAPI.swift
-//  Demo
+//  GithubEndpoint.swift
+//  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
@@ -34,10 +34,8 @@ private extension String {
 }
 
 enum GitHub {
-    case userProfile(username: String)
-    case repos(username: String)
-    case repo(fullName: String)
-    case issues(repositoryFullName: String)
+    case repos(username: String, keyPath: Bool)
+    case repo(fullName: String, keyPath: Bool)
 }
 
 extension GitHub: TargetType {
@@ -45,14 +43,10 @@ extension GitHub: TargetType {
 
     var path: String {
         switch self {
-        case .repos(let name):
+        case .repos(let name, _):
             return "/users/\(name.URLEscapedString)/repos"
-        case .userProfile(let name):
-            return "/users/\(name.URLEscapedString)"
-        case .repo(let name):
+        case .repo(let name, _):
             return "/repos/\(name)"
-        case .issues(let repositoryName):
-            return "/repos/\(repositoryName)/issues"
         }
     }
 
@@ -66,14 +60,31 @@ extension GitHub: TargetType {
 
     var sampleData: Data {
         switch self {
-        case .repos(_):
-            return "[{\"id\": 1, \"name\": \"sygnaler\", \"full_name\": \"gperdomor/sygnaler\", \"language\": \"Swift\"}]".data(using: .utf8)!
-        case .userProfile(let name):
-            return "{\"login\": \"\(name)\", \"id\": 100}".data(using: .utf8)!
-        case .repo(_):
-            return "{\"id\": 1, \"name\": \"sygnaler\", \"full_name\": \"gperdomor/sygnaler\", \"language\": \"Swift\"}".data(using: .utf8)!
-        case .issues(_):
-            return "{\"id\": 132942471, \"number\": 405, \"title\": \"Updates example with fix to String extension by changing to Optional\", \"body\": \"Fix it pls.\"}".data(using: .utf8)!
+        case .repos(let name, let keyPath):
+            var response: String = "{}"
+
+            if name == "gperdomor" {
+                response = "[{\"id\": 1, \"name\": \"sygnaler\", \"full_name\": \"gperdomor/sygnaler\", \"language\": \"Swift\"}]"
+            }
+
+            if keyPath {
+                response = "{\"data\": \(response)}"
+            }
+
+            return response.data(using: .utf8)!
+
+        case .repo(let name, let keyPath):
+            var response: String = "{}"
+
+            if name == "gperdomor/sygnaler" {
+                response = "{\"id\": 1, \"name\": \"sygnaler\", \"full_name\": \"gperdomor/sygnaler\", \"language\": \"Swift\"}"
+            }
+
+            if keyPath {
+                response = "{\"data\": \(response)}"
+            }
+
+            return response.data(using: .utf8)!
         }
     }
 

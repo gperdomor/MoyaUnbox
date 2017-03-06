@@ -1,6 +1,6 @@
 //
-//  IssueTracker.swift
-//  Demo
+//  Repository.swift
+//  MoyaUnbox
 //
 //  Created by Gustavo Perdomo on 3/5/17.
 //  Copyright (c) 2017 Gustavo Perdomo. Licensed under the MIT license, as follows:
@@ -25,12 +25,18 @@
 //
 
 import Foundation
-import Moya
+import Unbox
 
-class IssueTracker {
-    let provider = MoyaProvider<GitHub>()
+struct Repository: Unboxable {
+    let identifier: Int
+    let name: String
+    let fullName: String
+    let language: String? // Optional property
 
-    func findUserRepositories(name: String, completion: @escaping Moya.Completion) -> Cancellable {
-        return self.provider.request(GitHub.repos(username: name), completion: completion)
+    init(unboxer: Unboxer) throws {
+        identifier = try unboxer.unbox(key: "id")
+        name = try unboxer.unbox(key: "name")
+        fullName = try unboxer.unbox(key: "full_name")
+        language = unboxer.unbox(key: "language")
     }
 }

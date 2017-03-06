@@ -1,11 +1,11 @@
-# MoyaModelMapper
-[![Build Status](https://travis-ci.org/gperdomor/MoyaModelMapper.svg?branch=master)](https://travis-ci.org/gperdomor/MoyaModelMapper)
-[![codecov](https://codecov.io/gh/gperdomor/MoyaModelMapper/branch/master/graph/badge.svg)](https://codecov.io/gh/gperdomor/MoyaModelMapper)
+# MoyaUnbox
+[![Build Status](https://travis-ci.org/gperdomor/MoyaUnbox.svg?branch=master)](https://travis-ci.org/gperdomor/MoyaUnbox)
+[![codecov](https://codecov.io/gh/gperdomor/MoyaUnbox/branch/master/graph/badge.svg)](https://codecov.io/gh/gperdomor/MoyaUnbox)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/MoyaModelMapper.svg)](https://cocoapods.org/pods/MoyaModelMapper)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/MoyaUnbox.svg)](https://cocoapods.org/pods/MoyaUnbox)
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
-[ModelMapper](https://github.com/lyft/mapper) bindings for 
+[Unbox](https://github.com/JohnSundell/Unbox) bindings for 
 [Moya](https://github.com/Moya/Moya) for easier JSON serialization. Includes
 [RxSwift](https://github.com/ReactiveX/RxSwift) and [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift) bindings as well.
 
@@ -14,38 +14,38 @@
 ## CocoaPods
 Use the following entry in your Podfile
 ```
-pod 'MoyaModelMapper', '1.0.1'
+pod 'MoyaUnbox', '1.0.0'
 ```
 
 The subspec if you want to use the bindings over RxSwift.
 ```
-pod 'MoyaModelMapper/RxSwift', '1.0.1'
+pod 'MoyaUnbox/RxSwift', '1.0.0'
 ```
 
 And the subspec if you want to use the bindings over ReactiveSwift.
 ```
-pod 'MoyaModelMapper/ReactiveSwift', '1.0.1'
+pod 'MoyaUnbox/ReactiveSwift', '1.0.0'
 ```
 
 # Usage
 
-Create a model struct or class. It needs to implement protocol Mappable. More details about model creation [here](https://github.com/lyft/mapper/)
+Create a model struct or class. It needs to implement protocol Unboxable. More details about model creation [here](https://github.com/JohnSundell/Unbox/)
 
 ```swift
 import Foundation
-import Mapper
+import Unbox
 
-struct Repository: Mappable {
+struct Repository: Unboxable {
     let identifier: Int
     let name: String
     let fullName: String
     let language: String? // Optional property
 
-    init(map: Mapper) throws {
-        try identifier = map.from("id")
-        try name = map.from("name")
-        try fullName = map.from("full_name")
-        language = map.optionalFrom("language") // Optional property
+    init(unboxer: Unboxer) throws {
+        identifier = try unboxer.unbox(key: "id")
+        name = try unboxer.unbox(key: "name")
+        fullName = try unboxer.unbox(key: "full_name")
+        language = unboxer.unbox(key: "language")
     }
 }
 ```
@@ -170,14 +170,14 @@ provider
 There's a sample project in the Demo directory. To use it, run `pod install` to download the required libraries. Have fun!
 
 ## Other Mappers
+ - [MoyaModelMapper](https://github.com/gperdomor/MoyaModelMapper): ModelMapper bindings for Moya
  - [MoyaObjectMapper](https://github.com/gperdomor/MoyaObjectMapper): ObjectMapper bindings for Moya
- - [MoyaUnbox](https://github.com/gperdomor/MoyaUnbox): Unbox bindings for Moya
 
 ## Contributing
 
-Hey! Like MoyaModelMapper? Awesome! We could actually really use your help!
+Hey! Like MoyaUnbox? Awesome! We could actually really use your help!
 
-Open source isn't just writing code. MoyaModelMapper could use your help with any of the
+Open source isn't just writing code. MoyaUnbox could use your help with any of the
 following:
 
 - Finding (and reporting!) bugs.
@@ -194,4 +194,4 @@ requests and help steer the ship :ship:
 
 ## License
 
-MoyaModelMapper is available under the MIT license. See the LICENSE file for more info.
+MoyaUnbox is available under the MIT license. See the LICENSE file for more info.
