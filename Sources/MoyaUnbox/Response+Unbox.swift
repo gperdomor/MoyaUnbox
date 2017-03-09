@@ -53,11 +53,8 @@ public extension Response {
     public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String?) throws -> T {
         guard let keyPath = keyPath else { return try map(to: type) }
 
-        guard let json = try mapJSON() as? UnboxableDictionary else {
-            throw MoyaError.jsonMapping(self)
-        }
-
         do {
+            let json = try mapJSON() as! UnboxableDictionary
             return try unbox(dictionary: json, atKey: keyPath)
         } catch {
             throw MoyaError.jsonMapping(self)
@@ -87,11 +84,8 @@ public extension Response {
     public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) throws -> [T] {
         guard let keyPath = keyPath else { return try map(to: type) }
 
-        guard let jsonArray = try mapJSON() as? UnboxableDictionary else {
-            throw MoyaError.jsonMapping(self)
-        }
-
         do {
+            let jsonArray = try mapJSON() as! UnboxableDictionary
             return try unbox(dictionary: jsonArray, atKey: keyPath)
         } catch {
             throw MoyaError.jsonMapping(self)
