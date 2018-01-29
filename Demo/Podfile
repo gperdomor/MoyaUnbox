@@ -8,7 +8,7 @@ target 'Demo' do
   # Pods for Demo
   pod 'MoyaUnbox', :path => "../"
   pod 'MoyaUnbox/RxSwift', :path => "../"
-  pod 'RxSwift'
-  pod 'RxCocoa'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
   pod 'RxOptional'
 end
