@@ -31,7 +31,7 @@ import RxOptional
 import MoyaUnbox
 
 class RxIssueTracker {
-    let provider = RxMoyaProvider<GitHub>()
+    let provider = MoyaProvider<GitHub>()
     let repositoryName: Observable<String>
 
     init(name: Observable<String>) {
@@ -56,6 +56,7 @@ class RxIssueTracker {
 
     internal func findIssues(repository: Repository) -> Observable<[Issue]?> {
         return self.provider
+            .rx
             .request(GitHub.issues(repositoryFullName: repository.fullName))
             .debug()
             .mapOptional(to: [Issue.self])
@@ -63,6 +64,7 @@ class RxIssueTracker {
 
     internal func findRepository(name: String) -> Observable<Repository?> {
         return self.provider
+            .rx
             .request(GitHub.repo(fullName: name))
             .debug()
             .mapOptional(to: Repository.self)

@@ -41,6 +41,10 @@ enum GitHub {
 }
 
 extension GitHub: TargetType {
+    var headers: [String : String]? {
+        return nil
+    }
+    
     var baseURL: URL { return URL(string: "https://api.github.com")! }
 
     var path: String {
@@ -60,10 +64,6 @@ extension GitHub: TargetType {
         return .get
     }
 
-    var parameters: [String: Any]? {
-        return nil
-    }
-
     var sampleData: Data {
         switch self {
         case .repos(_):
@@ -78,10 +78,6 @@ extension GitHub: TargetType {
     }
 
     var task: Task {
-        return .request
-    }
-
-    var parameterEncoding: ParameterEncoding {
-        return JSONEncoding.default
+        return .requestParameters(parameters: [:], encoding: JSONEncoding.default)
     }
 }
