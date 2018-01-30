@@ -78,6 +78,6 @@ extension GitHub: TargetType {
     }
 
     var task: Task {
-        return .requestParameters(parameters: [:], encoding: JSONEncoding.default)
+        return .requestParameters(parameters: [:], encoding: URLEncoding.default)
     }
 }
