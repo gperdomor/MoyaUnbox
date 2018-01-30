@@ -66,12 +66,13 @@ class RxSwiftViewController: UIViewController {
         // we have filled up about 3 table view data source methods
         manager
             .trackIssues()
-            .bindTo(tableView.rx.items) { tableView, row, item in
+            .asObservable()
+            .bind(to: tableView.rx.items) { tableView, row, item in
                 let cell = tableView.dequeueReusableCell(withIdentifier: "RxCell", for: IndexPath(row: row, section: 0))
                 cell.textLabel?.text = item.title
                 return cell
             }
-            .addDisposableTo(disposeBag)
+            .disposed(by: disposeBag)
 
         // Here we tell table view that if user clicks on a cell,
         // and the keyboard is still visible, hide it
