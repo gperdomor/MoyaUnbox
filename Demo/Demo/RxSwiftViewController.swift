@@ -57,7 +57,6 @@ class RxSwiftViewController: UIViewController {
     }
 
     func setupRx() {
-
         // Now we will setup our model
         manager = RxIssueTracker(name: latestRepositoryName)
 
@@ -83,6 +82,6 @@ class RxSwiftViewController: UIViewController {
                     self.view.endEditing(true)
                 }
             })
-            .addDisposableTo(disposeBag)
+            .disposed(by: disposeBag)
     }
 }
