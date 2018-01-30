@@ -28,7 +28,6 @@ import Foundation
 import RxSwift
 import Moya
 import Unbox
-import MoyaUnbox
 
 public extension PrimitiveSequence where Trait == SingleTrait, Element == Response {
 
