@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/RxMoyaUnbox/*.swift"
     ss.dependency "MoyaUnbox/Core"
-    ss.dependency "Moya/RxSwift"
+    ss.dependency "Moya/RxSwift", '~> 10.0.2'
     ss.dependency "RxSwift", "~> 4.0"
   end
 
