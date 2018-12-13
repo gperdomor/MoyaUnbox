@@ -28,9 +28,8 @@ import Foundation
 import RxSwift
 import Moya
 import Unbox
-import MoyaUnbox
 
-public extension ObservableType where E == Response {
+public extension PrimitiveSequence where Trait == SingleTrait, Element == Response {
 
     /// Maps data received from the observable into an object which implements the Unboxable protocol.
     ///
@@ -38,10 +37,10 @@ public extension ObservableType where E == Response {
     ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of object or error, if the data can't be mapped
-    public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T> {
+    public func map<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Single<T> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
-            .flatMap { response -> Observable<T> in
-                return Observable.just(try response.map(to: type, fromKey: keyPath))
+            .flatMap { response -> Single<T> in
+                return Single.just(try response.map(to: type, fromKey: keyPath))
             }
             .observeOn(MainScheduler.instance)
     }
@@ -52,10 +51,10 @@ public extension ObservableType where E == Response {
     ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of array or error, if the data can't be mapped
-    public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]> {
+    public func map<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Single<[T]> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
-            .flatMap { response -> Observable<[T]> in
-                return Observable.just(try response.map(to: type, fromKey: keyPath))
+            .flatMap { response -> Single<[T]> in
+                return Single.just(try response.map(to: type, fromKey: keyPath))
             }
             .observeOn(MainScheduler.instance)
     }
@@ -66,14 +65,14 @@ public extension ObservableType where E == Response {
     ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of object or nil, if the data can't be mapped
-    public func mapOptional<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Observable<T?> {
+    public func mapOptional<T: Unboxable>(to type: T.Type, fromKey keyPath: String? = nil) -> Single<T?> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
-            .flatMap { response -> Observable<T?> in
+            .flatMap { response -> Single<T?> in
                 do {
                     let object: T = try response.map(to: type, fromKey: keyPath)
-                    return Observable.just(object)
+                    return Single.just(object)
                 } catch {
-                    return Observable.just(nil)
+                    return Single.just(nil)
                 }
             }
             .observeOn(MainScheduler.instance)
@@ -85,14 +84,14 @@ public extension ObservableType where E == Response {
     ///   - type: Type of the object which implements the Unboxable protocol.
     ///   - keyPath: Key of the inner json. This json will be used to map the object.
     /// - Returns: Observable of array or nil, if the data can't be mapped
-    public func mapOptional<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Observable<[T]?> {
+    public func mapOptional<T: Unboxable>(to type: [T.Type], fromKey keyPath: String? = nil) -> Single<[T]?> {
         return observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
-            .flatMap { response -> Observable<[T]?> in
+            .flatMap { response -> Single<[T]?> in
                 do {
                     let object: [T] = try response.map(to: type, fromKey: keyPath)
-                    return Observable.just(object)
+                    return Single.just(object)
                 } catch {
-                    return Observable.just(nil)
+                    return Single.just(nil)
                 }
             }
             .observeOn(MainScheduler.instance)

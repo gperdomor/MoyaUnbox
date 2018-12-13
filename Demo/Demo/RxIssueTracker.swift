@@ -31,7 +31,7 @@ import RxOptional
 import MoyaUnbox
 
 class RxIssueTracker {
-    let provider = RxMoyaProvider<GitHub>()
+    let provider = MoyaProvider<GitHub>()
     let repositoryName: Observable<String>
 
     init(name: Observable<String>) {
@@ -41,28 +41,31 @@ class RxIssueTracker {
     func trackIssues() -> Observable<[Issue]> {
         return self.repositoryName
             .observeOn(MainScheduler.instance)
-            .flatMapLatest { name -> Observable<Repository?> in
+            .flatMap { name -> Single<Repository?> in
                 print("Name: \(name)")
                 return self.findRepository(name: name)
             }
-            .flatMapLatest { repository -> Observable<[Issue]?> in
-                guard let repository = repository else { return Observable.just(nil) }
+            .flatMap { repository -> Single<[Issue]?> in
+                guard let repository = repository else { return Single.just(nil) }
 
                 print("Repository: \(repository.fullName)")
                 return self.findIssues(repository: repository)
             }
+            .asObservable()
             .replaceNilWith([])
     }
 
-    internal func findIssues(repository: Repository) -> Observable<[Issue]?> {
+    internal func findIssues(repository: Repository) -> Single<[Issue]?> {
         return self.provider
+            .rx
             .request(GitHub.issues(repositoryFullName: repository.fullName))
             .debug()
             .mapOptional(to: [Issue.self])
     }
 
-    internal func findRepository(name: String) -> Observable<Repository?> {
+    internal func findRepository(name: String) -> Single<Repository?> {
         return self.provider
+            .rx
             .request(GitHub.repo(fullName: name))
             .debug()
             .mapOptional(to: Repository.self)
